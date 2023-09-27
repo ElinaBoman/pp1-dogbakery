@@ -25,8 +25,8 @@ header {
     background-color: darksalmon;
 }
 
-header > h1 {
-    font-family: 'Neucha' sans-serif;
+h1 {
+    font-family: 'Neucha', serif;
 }
 /* Main */
 main {
