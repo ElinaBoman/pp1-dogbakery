@@ -6,18 +6,28 @@
     box-sizing: border-box;
 }
 
-/* Header */
 
+/* Body general styles */
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+color: darkslategray;
+}
+
+/* Header */
 header {
     background-color: darksalmon;
 }
 /* Main */
 main {
     background-color: darkseagreen;
+    /* make main element take up surplus space */
+    flex: 1 0 auto;
 }
 /* Footer */
 
-footer{
+footer {
     background-color: lavender;
 }
 
