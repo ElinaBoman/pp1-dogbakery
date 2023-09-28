@@ -50,6 +50,18 @@ h1 {
 
 #nav-bar {
     list-style-type: none;
+    font-size: 110%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+#nav-bar li{
+    margin-bottom: 20px;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
 }
 /* Main */
 main {
@@ -61,11 +73,20 @@ main {
 
 footer {
     background-color: lavender;
+    padding: 20px;
+}
+
+#footer-content {
+    background-color: #3a3a3a;
 }
 
 #footer-links {
     list-style-type: none;
-    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    letter-spacing: 2px;
+
 }
  
 
