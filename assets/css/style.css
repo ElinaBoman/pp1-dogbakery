@@ -99,6 +99,7 @@ main {
     background-color: darkseagreen;
     /* make main element take up surplus space */
     flex: 1 0 auto;
+    margin-top: 50px;
 }
 /* Footer */
 
@@ -120,4 +121,35 @@ footer {
 
 }
  
+/* Media query for tablets and larger (768px and up */
+@media screen and (min-width: 768px) {
+    /* Header*/
+    nav { 
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 20px;
+
+    }
+
+.nav-toggle{
+    display: none;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#nav-bar li{
+    padding-left: 20px;
+}
+
+
+
+}
+    
+
 
