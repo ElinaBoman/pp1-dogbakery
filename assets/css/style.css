@@ -28,6 +28,11 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 30px 20px -20px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+
 }
 
 header a {
@@ -48,12 +53,24 @@ h1 {
     color: #3a3a3a;
 }
 
+nav{
+    position: absolute;
+    background-color: #ffff;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 30px 20px -20px #3a3a3a;
+    padding: 20px;
+    display: none;
+    top: 100%;
+
+}
+
 #nav-bar {
     list-style-type: none;
     font-size: 110%;
     text-transform: uppercase;
     letter-spacing: 4px;
-
+ 
 }
 
 #nav-bar li{
@@ -62,6 +79,20 @@ h1 {
 
 .active{
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Nav-toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+    
+}
+
+.nav-toggle{
+    font-size: 30px;
 }
 /* Main */
 main {
