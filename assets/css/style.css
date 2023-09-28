@@ -22,7 +22,17 @@ font-family: 'Noto Serif JP', sans-serif;
 
 /* Header */
 header {
-    background-color: darksalmon;
+    background-color: #ffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 30px 20px -20px #3a3a3a;
+}
+
+#logo{
+    font-size: xx-large;
+    color: red;
 }
 
 h1 {
@@ -39,4 +49,5 @@ main {
 footer {
     background-color: lavender;
 }
+ 
 
