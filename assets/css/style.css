@@ -81,7 +81,7 @@ nav{
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Nav-toggle */
+/* Nav-toggle (Inspired and created together with the Love Running project. */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -99,25 +99,41 @@ main {
     background-color: darkseagreen;
     /* make main element take up surplus space */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 /* Footer */
 
 footer {
     background-color: lavender;
     padding: 20px;
-}
-
-#footer-content {
-    background-color: #3a3a3a;
-}
-
-#footer-links {
-    list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    letter-spacing: 2px;
+    
+
+}
+
+#footer-links {
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+
+
+#footer-links > li {
+    padding-left: 40px;
+    display: flex;
+    justify-content: center; 
+    list-style-type: none;
+    letter-spacing: 1px;
+    flex-direction: row;
+}
+
+#footer-links i {
+    color: #3a3a3a;
+    font-size: 150%;
+    display: flex;
+    
 
 }
  
