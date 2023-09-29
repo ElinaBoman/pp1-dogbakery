@@ -1,0 +1,7 @@
+   <div id="picture-dog"> <div id="picture-border"></div>
+        </div>
+    </div> 
+    <div id="picture-dog2"><div id="picture-border2"></div></div>
+
+   <!---kaka---!>
+    <i class="fa-solid fa-cookie-bite"></i>

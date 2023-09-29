@@ -20,6 +20,7 @@ color: darkslategray;
 font-family: 'Noto Serif JP', sans-serif;
 }
 
+
 /* Header */
 header {
     background-color: #ffff;
@@ -43,7 +44,12 @@ header a {
 }
 #logo{
     font-size: xx-large;
+    padding: 1rem 2rem 1rem 4rem;
     
+}
+
+#logo > i{
+    display: none;
 }
 
 h1 {
@@ -99,20 +105,39 @@ main {
     
     /* make main element take up surplus space */
     flex: 1 0 auto;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
-#main-background {
-    height: 900px;
-    width: 100%;
-    background-color: #ffff;
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    flex-direction: column;
+
 }
 
+.text{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.dog1 {
+    display: flex;
+    justify-content: center;
+}
+
+.dog2 {
+   
+    display: flex;
+    justify-content: center;
+
+}
 
 #picture-border{
     background: url(../images/pexels-anna-shvets-4587992.jpg) no-repeat center /cover;
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     max-width: 400px;
     max-height: 400px;
@@ -120,35 +145,104 @@ main {
    #picture-dog { 
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
    }
+
  #picture-border2 {
      background: url(../images/dogparthat.jpg) no-repeat center /cover;
-     width: 400px;
-     height: 400px;
+     width: 200px;
+     height: 200px;
      border-radius: 50%;
      max-width: 400px;
      max-height: 400px;
+     
  }
-         #picture-dog2 {
-             display: flex;
-             align-items: center;
-             justify-content: start;
-         }
-   #text-home{
-    padding-top: 100px;
-   }
+#picture-dog2 {
+display: flex;
+justify-content: center;
+}
+
+/* Form */
+
+#contacts{
+    background-color:rgb(255, 204, 204, 0.6);
+    font-size: auto;
+}
 
 
+#form{
+ width: auto;
+padding: 90px 10px 20px 10px;
+text-align: center;
+border-radius: 5px;
+margin-top: 5px;
+margin-bottom: 5px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#input-elements{
+    padding: 10px;
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.submit-button{
+ margin-top: 20px;
+ padding: 20px;
+ background-color: lavender;
+font-size: 110%;
+ border: 1px #3a3a3a solid;
+ max-width: max-content;
+}
+
+ #picture-dog3{
+    padding-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+#picture-border3 {
+    background: url(../images/frenchbulldog.jpg) no-repeat center /cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    border: 1px solid #3a3a3a;
+}
+
+
+/* About us */
+
+#about-text{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 110%;
+    line-height: 2;
+    
+}
 
 /* Footer */
 
 footer {
     background-color: lavender;
-    padding: 20px;
+    padding: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     flex-direction: row;
+    
     
 
 }
@@ -203,7 +297,25 @@ justify-content: space-between;
     padding-left: 20px;
 }
 
+#logo i{
+display: contents;
+}
 
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#picture-dog {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#picture-dog2{
+    display: flex;
+    justify-content: flex-start;
+}
 
 }
     
