@@ -264,20 +264,22 @@ justify-content: center;
 }
 
 #calendar {
-    background-color: #3a3a3a;
-    display: flex;
-    
-    flex-direction: column;
+    background-color: #ffff;
+   text-align: center;
+   
 
 }
 
 #calendar > div{
     background-color: rgb(220, 179, 184);
-    border: 2px solid #3a3a3a;
+    border: 1px solid #ffff;
     padding: 30px;
     text-align: center;
-    height: fit-content;
+    height: 150px;
+    width: 300px;
     margin: auto;
+    padding: 20px 10px 20px 10px;
+    
 
     
     
