@@ -162,9 +162,26 @@ display: flex;
 justify-content: center;
 }
 
+#spoil-your-dog-list{
+
+background-color: lavender;  
+
+}
+
+#spoil-your-dog-list li{
+    font-family: 'Neucha', serif;
+    font-size: 120%;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
 /* Form */
 
 #contacts{
+    margin-top: 30px;
     background-color:rgb(255, 204, 204, 0.6);
     font-size: auto;
 }
@@ -185,9 +202,10 @@ flex-direction: column;
 #input-elements{
     padding: 10px;
     font-size: 90%;
-    display: flex;
-    flex-direction: column;
+    display: flex; 
     justify-content: center;
+    flex-direction: column;
+   
     align-items: center;
 }
 
@@ -233,6 +251,39 @@ justify-content: center;
     line-height: 2;
     
 }
+
+.psst{
+    background-color: rgb(255, 204, 204, 0.6);
+    z-index: 1;
+    padding: 15px;
+   
+}
+.main-focus{
+    background-color: rgb(204, 204, 255, 0.7);
+    z-index: 2;
+}
+
+#calendar {
+    background-color: #3a3a3a;
+    display: flex;
+    
+    flex-direction: column;
+
+}
+
+#calendar > div{
+    background-color: rgb(220, 179, 184);
+    border: 2px solid #3a3a3a;
+    padding: 30px;
+    text-align: center;
+    height: fit-content;
+    margin: auto;
+
+    
+    
+}
+
+
 
 /* Footer */
 
