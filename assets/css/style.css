@@ -146,6 +146,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
    }
 
  #picture-border2 {
@@ -160,6 +161,20 @@ main {
 #picture-dog2 {
 display: flex;
 justify-content: center;
+}
+
+#opening-box{
+display: flex;
+justify-content: center;
+}
+.opening-hours{
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid;
+    max-width: fit-content;
+   
+    
 }
 
 #spoil-your-dog-list{
