@@ -445,21 +445,40 @@ display: contents;
 
     
 }
+
+#picture-border {
+    background: url(../images/pexels-anna-shvets-4587992.jpg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+}
 #picture-dog2{
     display: flex;
     justify-content: flex-start;
 
 }
 
+#picture-border2 {
+    background: url(../images/dogparthat.jpg) no-repeat center /cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
 #picture-dog4{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+
     
 }
 #picture-border4{
         background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: 500px;
         border-radius: 50%;
         max-width: 400px;
         max-height: 400px;
