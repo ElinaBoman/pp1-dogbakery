@@ -178,6 +178,11 @@ background-color: lavender;
     
 }
 
+.location{
+    height: 300px;
+    width: 100%; 
+}
+
 /* Form */
 
 #contacts{
