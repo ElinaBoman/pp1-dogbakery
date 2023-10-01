@@ -285,6 +285,21 @@ justify-content: center;
     border: 1px solid #3a3a3a;
 }
 
+#picture-dog4 {
+    display: block;
+    padding-top: 20px;
+    }
+
+#picture-border4 {
+    background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    border: 1px solid #3a3a3a;
+}
+
 
 /* About us */
 
@@ -436,13 +451,31 @@ display: contents;
 
 }
 
+#picture-dog4{
+    display: flex;
+    justify-content: center;
+    
+}
+#picture-border4{
+        background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        max-width: 400px;
+        max-height: 400px;
+        border: 1px solid #3a3a3a;
+}
+
+#spoil-your-dog-list{
+    line-height: 100px;
+}
+
 /*form*/
 .submit-button:hover, .text-area:hover, .text-input:hover{
     border-color: rgb(224, 175, 179);
 }
 
 }
-
     
 
 
