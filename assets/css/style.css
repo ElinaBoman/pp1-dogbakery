@@ -132,19 +132,6 @@ main {
 
 }
 
-
-.dog1 {
-    display: flex;
-    justify-content: center;
-}
-
-.dog2 {
-   
-    display: flex;
-    justify-content: center;
-
-}
-
 #picture-border{
     background: url(../images/pexels-anna-shvets-4587992.jpg) no-repeat center /cover;
     width: 200px;
@@ -287,17 +274,21 @@ justify-content: center;
 
 #picture-dog4 {
     display: block;
-    padding-top: 20px;
+   
     }
 
 #picture-border4 {
-    background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    max-width: 400px;
-    max-height: 400px;
-    border: 1px solid #3a3a3a;
+   display: block;
+
+}
+
+#picture-dog5 {
+    display: block;
+  
+}
+
+#picture-border5 {
+  display: block;
 }
 
 
@@ -441,7 +432,8 @@ display: contents;
 
 #picture-dog {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+    z-index: 1;
 
     
 }
@@ -454,11 +446,6 @@ display: contents;
     max-width: 400px;
     max-height: 400px;
 }
-#picture-dog2{
-    display: flex;
-    justify-content: flex-start;
-
-}
 
 #picture-border2 {
     background: url(../images/dogparthat.jpg) no-repeat center /cover;
@@ -467,13 +454,13 @@ display: contents;
     border-radius: 50%;
     max-width: 400px;
     max-height: 400px;
+    display: block;
 }
 
 #picture-dog4{
     display: flex;
-    justify-content: flex-start;
-
-    
+    justify-content: center;
+    z-index: 2; 
 }
 #picture-border4{
         background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
@@ -482,19 +469,51 @@ display: contents;
         border-radius: 50%;
         max-width: 400px;
         max-height: 400px;
-        border: 1px solid #3a3a3a;
+       
 }
 
-#spoil-your-dog-list{
+
+
+#pictures-dogs-bigscreen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+#spoil-your-dog-list {
     line-height: 100px;
 }
 
 /*form*/
-.submit-button:hover, .text-area:hover, .text-input:hover{
+.submit-button:hover,
+.text-area:hover,
+.text-input:hover {
     border-color: rgb(224, 175, 179);
 }
 
 }
+
+
+@media screen and (min-width: 900px){
+
+#picture-border5 {
+            background: url(../images/pexels-sam-lion-5732437.jpg) no-repeat center /cover;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            max-width: 400px;
+            max-height: 400px;
+}
+
+#picture-dog5 {
+display: flex;
+justify-content:
+                 }
+
+}
+
+
     
 
 
