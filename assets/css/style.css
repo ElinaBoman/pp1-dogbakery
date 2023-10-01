@@ -86,13 +86,10 @@ nav{
  
 }
 
-#nav-bar li{
-    margin-bottom: 20px;
-}
-
 .active{
     border-bottom: 1px solid #3a3a3a;
 }
+
 
 /* Nav-toggle (Inspired and created together with the Love Running project. */
 #nav-toggle:checked~nav {
@@ -495,6 +492,18 @@ display: contents;
 .text-area:hover,
 .text-input:hover {
     border-color: rgb(224, 175, 179);
+}
+
+.home-hover:hover {
+    background-color: rgb(224, 175, 179);
+}
+
+.about-hover:hover {
+    background-color: rgb(224, 175, 179);
+}
+
+.contact-hover:hover {
+   background-color: rgb(224, 175, 179);
 }
 
 }
