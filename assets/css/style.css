@@ -242,9 +242,9 @@ padding-block: 20px;
 }
 
 .submit-button{
-    height: fit-content;
-    width: fit-content;
-    background-color: #e0bcbc;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(227, 141, 218, 0.4);
     font-size: 110%;
     
 }
