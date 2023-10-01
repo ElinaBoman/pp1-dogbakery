@@ -209,14 +209,9 @@ flex-direction: column;
 
 }
 
-
-
-#text-input{
-min-width: 250px; 
-max-width: 50%;
-min-height: 100px;
-height: 100%;
-width: 50%;
+.text-area{
+    height: 10rem;
+    width: 30rem;
 }
 
 .submit-button{
@@ -270,8 +265,12 @@ justify-content: center;
 }
 
 #calendar {
-    background-color: #ffff;
+background-color: #ffff;
    text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
    
 
 }
@@ -376,7 +375,13 @@ display: contents;
     justify-content: flex-start;
 }
 
+/*form*/
+.submit-button:hover, .text-area:hover, .text-input:hover{
+    border-color: rgb(224, 175, 179);
 }
+
+}
+
     
 
 
