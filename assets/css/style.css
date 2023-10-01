@@ -23,17 +23,15 @@ font-family: 'Noto Serif JP', sans-serif;
 
 /* Header */
 header {
-    background-color: #ffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
+background-color: #ffff;
+padding: 10px;
+position: fixed;
+z-index: 99;
+ width: 100%;
     box-shadow: 0 30px 20px -20px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
-
 }
 
 header a {
@@ -43,8 +41,11 @@ header a {
     
 }
 #logo{
-    font-size: xx-large;
+    font-size:;
     padding: 1rem 2rem 1rem 4rem;
+    display: flex;
+    justify-content: space-evenly;
+
     
 }
 
@@ -203,8 +204,9 @@ background-color: lavender;
 
 #contacts{
     margin-top: 30px;
-    background-color:rgb(255, 204, 204, 0.6);
+    background-color:rgba(255, 255, 255, 0.96);
     font-size: auto;
+    
 }
 
 
@@ -313,6 +315,15 @@ background-color: #ffff;
 
 
 
+#map{
+    margin-top: 10px;
+}
+#map h3{
+    text-align: center;
+}
+
+
+
 /* Footer */
 
 footer {
@@ -353,6 +364,8 @@ justify-content: space-between;
 /* Media query for tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
     /* Header*/
+
+
     nav { 
     display: block;
     position: relative;
@@ -378,8 +391,13 @@ justify-content: space-between;
 
 #logo i{
 display: contents;
+
 }
 
+.intro-text{
+    font-size: 150%;
+    
+}
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -389,11 +407,13 @@ display: contents;
 #picture-dog {
     display: flex;
     justify-content: flex-end;
+
     
 }
 #picture-dog2{
     display: flex;
     justify-content: flex-start;
+
 }
 
 /*form*/
