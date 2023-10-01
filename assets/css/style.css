@@ -166,8 +166,9 @@ justify-content: center;
     padding: 10px;
     text-align: center;
     line-height: 30px;
-    border: 1px solid rgb(255, 204, 204, 0.7);
     max-width: fit-content;
+    background-color: rgb(255, 255, 255, 0.6);
+    box-shadow: 0 30px 20px -20px #3a3a3a;
    
     
 }
@@ -301,6 +302,7 @@ justify-content: center;
 .main-focus{
    background-color: rgb(255, 255, 255, 0.4);
     z-index: 2;
+    box-shadow: 0 30px 20px -30px #3a3a3a;
 }
 
 #calendar {
