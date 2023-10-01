@@ -23,8 +23,8 @@ font-family: 'Noto Serif JP', sans-serif;
 
 /* Header */
 header {
-background-color: #ffff;
-padding: 10px;
+background: #ffff;
+padding: 80px;
 position: fixed;
 z-index: 99;
  width: 100%;
@@ -32,7 +32,9 @@ z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+
 }
+
 
 header a {
     text-decoration: none;
@@ -41,7 +43,7 @@ header a {
     
 }
 #logo{
-    font-size:;
+   
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
     justify-content: center;
@@ -61,9 +63,11 @@ h1 {
     text-align: center;
 }
 
-main, h2, h3 {
+main {
+    
     text-align: center;
     line-height: 30px;
+    background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
 nav{
