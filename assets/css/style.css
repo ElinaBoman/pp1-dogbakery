@@ -44,7 +44,7 @@ header a {
     font-size:;
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
     
 }
@@ -58,6 +58,12 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3a3a3a;
+    text-align: center;
+}
+
+main, h2, h3 {
+    text-align: center;
+    line-height: 30px;
 }
 
 nav{
@@ -109,19 +115,23 @@ main {
     margin-top: 100px;
 }
 
+.intro-text{
+    margin-top: 4rem;
+    display: flex;
+        justify-content: center;
+        padding: 20px 40px;
+        flex-direction: column;
+
+}
+
 #container {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 40px;
+    padding: 40px 40px;
     flex-direction: column;
 
 }
 
-.text{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
 
 .dog1 {
     display: flex;
@@ -157,11 +167,13 @@ main {
      border-radius: 50%;
      max-width: 400px;
      max-height: 400px;
+    
      
  }
 #picture-dog2 {
 display: flex;
 justify-content: center;
+margin-top: 10px;
 }
 
 #opening-box{
@@ -169,6 +181,7 @@ display: flex;
 justify-content: center;
 }
 .opening-hours{
+    margin-bottom: 10px;
     padding: 10px;
     text-align: center;
     line-height: 30px;
@@ -178,9 +191,16 @@ justify-content: center;
     
 }
 
+#spoil-your-dog, h3{
+display: flex;  
+justify-content: center;
+padding: 10px;
+    
+}
+
 #spoil-your-dog-list{
 
-background-color: lavender;  
+background-color: lavender; 
 
 }
 
@@ -190,7 +210,7 @@ background-color: lavender;
     text-transform: uppercase;
     list-style: none;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     
 }
 
