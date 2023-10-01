@@ -55,7 +55,7 @@ header a {
     display: none;
 }
 
-h1 {
+h1{
     font-family: 'Neucha', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -168,7 +168,7 @@ justify-content: center;
     line-height: 30px;
     max-width: fit-content;
     background-color: rgb(255, 255, 255, 0.6);
-    box-shadow: 0 30px 20px -20px #3a3a3a;
+    
    
     
 }
@@ -177,6 +177,9 @@ justify-content: center;
 display: flex;  
 justify-content: center;
 padding: 10px;
+font-family: 'Neucha',serif;
+text-transform: uppercase;
+
     
 }
 
@@ -192,6 +195,8 @@ padding: 10px;
     
 }
 
+
+
 .location{
     height: 300px;
     width: 100%; 
@@ -204,20 +209,21 @@ padding: 10px;
     margin-top: 30px;
     background-color:rgba(255, 255, 255, 0.96);
     font-size: auto;
+    background-color: rgb(255, 255, 255, 0.4);
     
 }
 
 
 #form{
- width: auto;
-padding: 90px 10px 20px 10px;
+padding-left: 20px;
 text-align: center;
 border-radius: 5px;
-margin-top: 5px;
-margin-bottom: 5px;
+margin-top: 200px;
 display: flex;
 justify-content: center;
 flex-direction: column;
+background-color: rgb(255, 255, 255, 0.4);
+
 }
 
 #input-elements{
@@ -227,6 +233,7 @@ flex-direction: column;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+   
 
 }
 
