@@ -200,29 +200,35 @@ flex-direction: column;
 }
 
 #input-elements{
-    padding: 10px;
+    padding: px;
     font-size: 90%;
     display: flex; 
     justify-content: center;
     flex-direction: column;
-   
     align-items: center;
+
 }
 
 
 
+#text-input{
+min-width: 250px; 
+max-width: 50%;
+min-height: 100px;
+height: 100%;
+width: 50%;
+}
 
 .submit-button{
- margin-top: 20px;
- padding: 20px;
- background-color: lavender;
-font-size: 110%;
- border: 1px #3a3a3a solid;
- max-width: max-content;
+    height: fit-content;
+    width: fit-content;
+    background-color: #e0bcbc;
+    font-size: 110%;
+    
 }
 
  #picture-dog3{
-    padding-top: 20px;
+padding-top: 20px;
 display: flex;
 align-items: center;
 justify-content: center;
