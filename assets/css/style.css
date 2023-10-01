@@ -24,7 +24,7 @@ font-family: 'Noto Serif JP', sans-serif;
 /* Header */
 header {
 background: #ffff;
-padding: 80px;
+padding: 30px;
 position: fixed;
 z-index: 99;
  width: 100%;
@@ -119,9 +119,9 @@ main {
 .intro-text{
     margin-top: 4rem;
     display: flex;
-        justify-content: center;
-        padding: 20px 40px;
-        flex-direction: column;
+    justify-content: center;
+    padding: 20px 40px;
+    flex-direction: column;
 
 }
 
@@ -179,11 +179,7 @@ padding: 10px;
     
 }
 
-#spoil-your-dog-list{
 
-background-color: lavender; 
-
-}
 
 #spoil-your-dog-list li{
     font-family: 'Neucha', serif;
