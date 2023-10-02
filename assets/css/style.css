@@ -251,13 +251,19 @@ padding-block: 20px;
 
 /* About us */
 
+#about{
+    display: flex;
+    justify-content: center;
+}
+
 #about-text{
-background-color: rgb(255, 255, 255, 0.4);
+background-color: rgb(255, 255, 255, 0.6);
 margin-top: 50px;
-text-align: center;
 font-size: 110%;
 line-height: 2;
+max-width: 700px;
 }
+
 
 .psst{
 background-color: rgb(255, 204, 204, 0.6);
@@ -266,15 +272,15 @@ padding: 15px;
    
 }
 .main-focus{
-background-color: rgb(255, 255, 255, 0.4);
-z-index: 2;
-box-shadow: 0 30px 20px -30px #3a3a3a;
+background-color: rgb(255, 255, 255, 0.6);
+
+
+}
+#opening-box{
+    display: flex;
+    justify-content: center;
 }
 
-#opening-box {
-display: flex;
-justify-content: center;
-}
 
 .opening-hours {
 margin-bottom: 10px;
@@ -286,7 +292,7 @@ background-color: rgb(255, 255, 255, 0.6);
 }
 
 #calendar {
-background-color: #ffff;
+
 text-align: center;
 display: flex;
 flex-wrap: wrap;
@@ -297,18 +303,13 @@ flex-grow: 1;
 }
 
 #calendar > div{
-    background-color: rgb(220, 179, 184);
-    border: 1px solid #ffff;
+    background-color: rgb(255, 255, 255, 0.6);
     padding: 30px;
     text-align: center;
     height: 150px;
     width: 300px;
     margin: auto;
-    padding: 20px 10px 20px 10px;
-    
-
-    
-    
+    padding: 20px 10px 20px 10px;  
 }
 
 
