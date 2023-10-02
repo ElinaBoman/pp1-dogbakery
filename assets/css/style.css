@@ -24,14 +24,14 @@ font-family: 'Noto Serif JP', sans-serif;
 /* Header */
 header {
 background: #ffff;
-padding: 30px;
+padding: 20px;
 position: fixed;
 z-index: 99;
  width: 100%;
-    box-shadow: 0 30px 20px -20px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+box-shadow: 0 30px 20px -20px #3a3a3a;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
 
 }
 
@@ -57,13 +57,6 @@ header a {
 
 #logo > i{
     display: none;
-}
-
-main {
-    
-    text-align: center;
-    line-height: 30px;
-    background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
 nav{
@@ -104,7 +97,9 @@ nav{
 .nav-toggle{
     font-size: 30px;
 }
+
 /* Main */
+
 main {   
 /* make main element take up surplus space */
 flex: 1 0 auto;
@@ -114,6 +109,13 @@ line-height: 30px;
 background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
+
+main h1{
+font-family: 'Neucha', serif;
+padding-top: 100px;
+
+    
+}
 /*All pictures and their border on homepage*/
 
 #picture-border {
@@ -157,8 +159,6 @@ display: block;
 }
 
 
-
-
 #spoil-your-dog, h3{
 display: flex;  
 justify-content: center;
@@ -166,7 +166,6 @@ padding: 10px;
 font-family: 'Neucha',serif;
 text-transform: uppercase;
 
-    
 }
 
 
@@ -191,11 +190,16 @@ text-transform: uppercase;
 
 /* Form */
 
+
+
 #contacts{
     margin-top: 30px;
     background-color:rgba(255, 255, 255, 0.96);
     font-size: auto;
     background-color: rgb(255, 255, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -206,9 +210,11 @@ text-align: center;
 border-radius: 5px;
 margin-top: 200px;
 display: flex;
-justify-content: center;
+
+
 flex-direction: column;
 background-color: rgb(255, 255, 255, 0.4);
+justify-content: center;
 
 }
 
@@ -216,7 +222,7 @@ background-color: rgb(255, 255, 255, 0.4);
     padding: px;
     font-size: 90%;
     display: flex; 
-    justify-content: center;
+  
     flex-direction: column;
     align-items: center;
    }
@@ -233,10 +239,10 @@ padding-block: 20px;
 }
 
  #picture-dog3 {
-     padding-top: 20px;
-     display: flex;
-     align-items: center;
+     padding-top: 20px;  
+    display: flex;
      justify-content: center;
+
  }
 
  #picture-border3 {
@@ -246,6 +252,7 @@ padding-block: 20px;
      border-radius: 50%;
      max-width: 400px;
      max-height: 400px;
+ 
 
  }
 
@@ -423,7 +430,7 @@ display: contents;
 }
 
 #picture-border {
-    background: url(../images/pexels-anna-shvets-4587992.jpg) no-repeat center /cover;
+    background: url(../images/peekingdog.jpg) no-repeat center /cover;
     width: 500px;
     height: 500px;
     border-radius: 50%;
