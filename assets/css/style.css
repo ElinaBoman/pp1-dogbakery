@@ -47,20 +47,16 @@ header a {
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
     justify-content: center;
-
-    
-}
-
-#logo > i{
-    display: none;
-}
-
-h1{
     font-family: 'Neucha', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #3a3a3a;
     text-align: center;
+    
+}
+
+#logo > i{
+    display: none;
 }
 
 main {
@@ -109,69 +105,59 @@ nav{
     font-size: 30px;
 }
 /* Main */
-main {
-    
-    /* make main element take up surplus space */
-    flex: 1 0 auto;
-    margin-top: 100px;
+main {   
+/* make main element take up surplus space */
+flex: 1 0 auto;
+margin-top: 100px; 
+text-align: center;
+line-height: 30px;
+background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
-.intro-text{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
-    padding: 20px 40px;
-    flex-direction: column;
+/*All pictures and their border on homepage*/
 
+#picture-border {
+background: url(../images/peekingdog.jpg) no-repeat center /cover;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+max-width: 400px;
+max-height: 400px;
 }
 
-#container {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px 40px;
-    flex-direction: column;
-
-}
-
-#picture-border{
-    background: url(../images/pexels-anna-shvets-4587992.jpg) no-repeat center /cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    max-width: 400px;
-    max-height: 400px;
-}
-   #picture-dog { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+#picture-dog { 
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px;
    }
 
- #picture-border2 {
- display: block;
-    
-     
+#picture-border2 {
+ display: block;  
  }
 #picture-dog2 {
 display: block;
 }
 
-#opening-box{
-display: flex;
-justify-content: center;
+ #picture-dog4 {
+display: block;
+
 }
-.opening-hours{
-    margin-bottom: 10px;
-    padding: 10px;
-    text-align: center;
-    line-height: 30px;
-    max-width: fit-content;
-    background-color: rgb(255, 255, 255, 0.6);
-    
-   
-    
+
+#picture-border4 {
+display: block;
 }
+
+#picture-dog5 {
+display: block;
+}
+
+#picture-border5 {
+display: block;
+}
+
+
+
 
 #spoil-your-dog, h3{
 display: flex;  
@@ -233,9 +219,7 @@ background-color: rgb(255, 255, 255, 0.4);
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   
-
-}
+   }
 
 .text-area{
 padding-block: 20px;
@@ -244,81 +228,70 @@ padding-block: 20px;
 .submit-button{
     height: 50px;
     width: 100px;
-    background-color: rgba(227, 141, 218, 0.4);
+    background-color: rgb(255, 255, 255, 0.4);
     font-size: 110%;
-    
 }
 
- #picture-dog3{
-padding-top: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
+ #picture-dog3 {
+     padding-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
 
+ #picture-border3 {
+     background: url(../images/frenchbulldog.jpg) no-repeat center /cover;
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     max-width: 400px;
+     max-height: 400px;
 
-
-
-#picture-border3 {
-    background: url(../images/frenchbulldog.jpg) no-repeat center /cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    max-width: 400px;
-    max-height: 400px;
-   
-}
-
-#picture-dog4 {
-    display: block;
-   
-    }
-
-#picture-border4 {
-   display: block;
-
-}
-
-#picture-dog5 {
-    display: block;
-  
-}
-
-#picture-border5 {
-  display: block;
-}
-
+ }
 
 /* About us */
 
 #about-text{
-    background-color: rgb(255, 255, 255, 0.4);
-    margin-top: 50px;
-    text-align: center;
-    font-size: 110%;
-    line-height: 2;
-    
+background-color: rgb(255, 255, 255, 0.4);
+margin-top: 50px;
+text-align: center;
+font-size: 110%;
+line-height: 2;
 }
 
 .psst{
-    background-color: rgb(255, 204, 204, 0.6);
-    z-index: 1;
-    padding: 15px;
+background-color: rgb(255, 204, 204, 0.6);
+z-index: 1;
+padding: 15px;
    
 }
 .main-focus{
-   background-color: rgb(255, 255, 255, 0.4);
-    z-index: 2;
-    box-shadow: 0 30px 20px -30px #3a3a3a;
+background-color: rgb(255, 255, 255, 0.4);
+z-index: 2;
+box-shadow: 0 30px 20px -30px #3a3a3a;
+}
+
+#opening-box {
+display: flex;
+justify-content: center;
+}
+
+.opening-hours {
+margin-bottom: 10px;
+padding: 10px;
+text-align: center;
+line-height: 30px;
+max-width: fit-content;
+background-color: rgb(255, 255, 255, 0.6);
 }
 
 #calendar {
 background-color: #ffff;
-   text-align: center;
-   display: flex;
-   flex-wrap: wrap;
-    flex-basis: 200px;
-    flex-grow: 1;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+flex-basis: 200px;
+flex-grow: 1;
    
 
 }
