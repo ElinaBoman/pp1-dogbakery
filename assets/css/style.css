@@ -13,25 +13,25 @@
 
 /* Body general styles */
 body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-color: darkslategray;
-font-family: 'Noto Serif JP', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: darkslategray;
+    font-family: 'Noto Serif JP', sans-serif;
 }
 
 
 /* Header */
 header {
-background: #ffff;
-padding: 20px;
-position: fixed;
-z-index: 99;
- width: 100%;
-box-shadow: 0 30px 20px -20px #3a3a3a;
-display: flex;
-justify-content: space-between;
-align-items: baseline;
+    background: #ffff;
+    padding: 20px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 30px 20px -20px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 
@@ -102,71 +102,71 @@ nav{
 
 main {   
 /* make main element take up surplus space */
-flex: 1 0 auto;
-margin-top: 100px; 
-text-align: center;
-line-height: 30px;
-background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
+    flex: 1 0 auto;
+    margin-top: 100px; 
+    text-align: center;
+    line-height: 30px;
+    background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
 
 main h1{
-font-family: 'Neucha', serif;
-padding-top: 100px;
+    font-family: 'Neucha', serif;
+    padding-top: 100px;
 
     
 }
 /*All pictures and their border on homepage*/
 
 #picture-border {
-background: url(../images/peekingdog.jpg) no-repeat center /cover;
-width: 200px;
-height: 200px;
-border-radius: 50%;
-max-width: 400px;
-max-height: 400px;
+    background: url(../images/peekingdog.jpg) no-repeat center /cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 #picture-dog { 
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 20px;
-   }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
 #picture-border2 {
- display: block;  
+    display: block;  
  }
 #picture-dog2 {
-display: block;
+    display: block;
 }
 
  #picture-dog4 {
-display: block;
+    display: block;
 
 }
 
 #picture-border4 {
-display: block;
+    display: block;
 }
 
 #picture-dog5 {
-display: block;
+    display: block;
 }
 
 #picture-border5 {
-display: block;
+    display: block;
 }
 
 
 #spoil-your-dog, h3{
-display: flex;  
-justify-content: center;
-padding: 10px;
-font-family: 'Neucha',serif;
-text-transform: uppercase;
-flex-direction: column;
-}
+    display: flex;  
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Neucha',serif;
+    text-transform: uppercase;
+    flex-direction: column;
+    }
 
 
 
@@ -203,32 +203,27 @@ flex-direction: column;
     
 }
 
-
 #form{
-padding-left: 20px;
-text-align: center;
-border-radius: 5px;
-margin-top: 200px;
-display: flex;
-
-
-flex-direction: column;
-background-color: rgb(255, 255, 255, 0.4);
-justify-content: center;
-
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255, 0.4);
+    justify-content: center;
 }
 
 #input-elements{
     padding: px;
     font-size: 90%;
     display: flex; 
-  
     flex-direction: column;
     align-items: center;
    }
 
 .text-area{
-padding-block: 20px;
+    padding-block: 20px;
 }
 
 .submit-button{
@@ -240,7 +235,7 @@ padding-block: 20px;
 
  #picture-dog3 {
      padding-top: 20px;  
-    display: flex;
+     display: flex;
      justify-content: center;
 
  }
@@ -252,8 +247,6 @@ padding-block: 20px;
      border-radius: 50%;
      max-width: 400px;
      max-height: 400px;
- 
-
  }
 
 /* About us */
@@ -264,22 +257,22 @@ padding-block: 20px;
 }
 
 #about-text{
-background-color: rgb(255, 255, 255, 0.6);
-margin-top: 50px;
-font-size: 110%;
-line-height: 2;
-max-width: 700px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-top: 50px;
+    font-size: 110%;
+    line-height: 2;
+    max-width: 700px;
 }
 
 
 .psst{
-background-color: rgb(255, 204, 204, 0.6);
-z-index: 1;
-padding: 15px;
+    background-color: rgb(255, 204, 204, 0.6);
+    z-index: 1;
+    padding: 15px;
    
 }
 .main-focus{
-background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.6);
 
 
 }
@@ -290,23 +283,20 @@ background-color: rgb(255, 255, 255, 0.6);
 
 
 .opening-hours {
-margin-bottom: 10px;
-padding: 10px;
-text-align: center;
-line-height: 30px;
-max-width: fit-content;
-background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    max-width: fit-content;
+    background-color: rgb(255, 255, 255, 0.6);
 }
 
 #calendar {
-
-text-align: center;
-display: flex;
-flex-wrap: wrap;
-flex-basis: 200px;
-flex-grow: 1;
-   
-
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 #calendar > div{
@@ -344,9 +334,9 @@ footer {
 }
 
 #footer-links {
-text-align: center;
-display: flex;
-justify-content: space-between;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -384,11 +374,11 @@ justify-content: space-between;
     }
 
     nav { 
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 20px;
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 20px;
 
     }
 
@@ -407,7 +397,7 @@ justify-content: space-between;
 }
 
 #logo i{
-display: contents;
+    display: contents;
 
 
 }
@@ -456,13 +446,12 @@ display: contents;
     z-index: 3; 
 }
 #picture-border4{
-        background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
-        width: 500px;
-        height: 500px;
-        border-radius: 50%;
-        max-width: 400px;
-        max-height: 400px;
-       
+     background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;    
 }
 
 
@@ -472,7 +461,6 @@ display: contents;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 5rem;
- 
 }
 
 
@@ -505,18 +493,18 @@ display: contents;
 @media screen and (min-width: 900px){
 
 #picture-border5 {
-            background: url(../images/pexels-sam-lion-5732437.jpg) no-repeat center /cover;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            max-width: 400px;
-            max-height: 400px;
-            margin-top: 20px;
+    background: url(../images/pexels-sam-lion-5732437.jpg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
 }
 
 #picture-dog5 {
-display: flex;
-justify-content:center
+    display: flex;
+    justify-content:center
 }
 
 }
