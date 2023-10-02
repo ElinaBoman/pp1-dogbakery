@@ -63,9 +63,9 @@ nav{
     position: absolute;
     background-color: #ffff;
     width: 100%;
-    left: 0;
+    right: 10px;
     box-shadow: 0 30px 20px -20px #3a3a3a;
-    padding: 20px;
+    padding: 20px 10px 20px 0;
     display: none;
     top: 100%;
 
@@ -251,44 +251,85 @@ main h1{
 
 /* About us */
 
-#about{
+#about-section{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 100px;
+    
+}
+
+#welcome-text{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+} 
+
+#border{
+    border: 1px solid #3a3a3a;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    align-content: center;
+    padding-top: 150px;
+    padding: 50px 40px 50px 40px;
+}
+
+
+
+#about {
+    display: flex;
+    justify-content: center;
+
 }
 
 #about-text{
-    background-color: rgb(255, 255, 255, 0.6);
     margin-top: 50px;
     font-size: 110%;
     line-height: 2;
-    max-width: 700px;
-}
-
-
-.psst{
-    background-color: rgb(255, 204, 204, 0.6);
-    z-index: 1;
-    padding: 15px;
-   
-}
-.main-focus{
-    background-color: rgb(255, 255, 255, 0.6);
-
-
-}
-#opening-box{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+ 
 }
 
-
-.opening-hours {
+#opening-box{
     margin-bottom: 10px;
-    padding: 10px;
-    text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     max-width: fit-content;
     background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border: 1px solid  #3a3a3a;
+    border-radius: 50%;
+    padding: 5px;
+}
+#opening-box > p{
+    display: flex;
+    justify-content: center;
+
+}
+
+#picture-border-my-dog {
+    background: url(../images/mydog.jpg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#picture-dog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #calendar {
@@ -439,6 +480,17 @@ footer {
     display: block;
     z-index: 1;
 }
+
+/* About-page */
+
+#border {
+    width: 400px;
+    height: 400px;
+    align-content: center;
+    padding-top: 150px;
+    padding: 120px 10px 150px 10px;
+}
+
 
 #picture-dog4{
     display: flex;
