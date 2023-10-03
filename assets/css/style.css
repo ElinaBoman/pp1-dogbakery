@@ -24,10 +24,11 @@ body {
 /* Header */
 header {
     background: #ffff;
-    padding: 20px;
+    padding: 10px 10px 70px 10px;
     position: fixed;
     z-index: 99;
-    width: 100%;
+    width: 100vw;
+    height: 100px;
     box-shadow: 0 30px 20px -20px #3a3a3a;
     display: flex;
     justify-content: space-between;
@@ -73,9 +74,10 @@ nav{
 
 #nav-bar {
     list-style-type: none;
-    font-size: 110%;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
  
 }
 
@@ -196,7 +198,6 @@ main h1{
     margin-top: 30px;
     background-color:rgba(255, 255, 255, 0.96);
     font-size: auto;
-    background-color: rgb(255, 255, 255, 0.4);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -204,14 +205,13 @@ main h1{
 }
 
 #form{
-    padding-left: 20px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255, 0.4);
     justify-content: center;
+    
+
 }
 
 #input-elements{
@@ -256,7 +256,7 @@ main h1{
    justify-content: center;
    flex-direction: column;
    margin-top: 10px;
-   margin-left: 10px;
+   
     
 }
 
@@ -269,7 +269,6 @@ main h1{
 } 
 
 #border{
-    border: 1px solid #3a3a3a;
     border-radius: 50%;
     background-color: rgb(255, 255, 255, 0.6);
     display: flex;
@@ -308,21 +307,10 @@ main h1{
     flex-direction: column;
     width: 200px;
     height: 200px;
-    border: 1px solid  #3a3a3a;
     border-radius: 50%;
     padding: 30px 10px 10px 10px;
 }
 
-
-#picture-border-my-dog {
-    background: url(../images/mydog.jpg) no-repeat center /cover;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    max-width: 500px;
-    max-height: 500px;
-    margin-top: 10px;
-}
 
 /*section 2 about */
 
@@ -334,30 +322,50 @@ font-size: 90%;
 
 }
 
+#picture-border-my-dog {
+    background: url(../images/mydog.jpg) no-repeat center /cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 10px;
+}
 #presentation-text{
 
    margin-top: 50px;
    background-color: rgb(255, 255, 255, 0.6);
    padding: 20px;
-   font-size: ;
+   line-height: 2rem;
 }
 
-#calendar {
-    text-align: center;
+
+#weekly-activites{
+display: flex;
+justify-content: center;
+
+
+}
+
+#calander{
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: 200px;
+    justify-content: space-evenly;
     flex-grow: 1;
 }
 
-#calendar > div{
+
+
+.calendar-days{
     background-color: rgb(255, 255, 255, 0.6);
-    padding: 30px;
+    padding: 40px 10px 50px 10px;
     text-align: center;
-    height: 150px;
-    width: 300px;
-    margin: auto;
-    padding: 20px 10px 20px 10px;  
+    height: 220px;
+    width: 220px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    
+    
+    
 }
 
 
@@ -375,35 +383,35 @@ font-size: 90%;
 
 footer {
     background-color: lavender;
-    padding: 50px;
+    padding-top: 50px;
+    height: 100px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-direction: row;
-    
     
 
 }
 
 #footer-links {
-    text-align: center;
     display: flex;
     justify-content: space-between;
+
 }
 
 
 #footer-links > li {
-    padding-left: 40px;
-    display: flex;
-    justify-content: center; 
     list-style-type: none;
     letter-spacing: 1px;
-    flex-direction: row;
+    
+    
 }
 
 #footer-links i {
     color: #3a3a3a;
     font-size: 150%;
     display: flex;
+    justify-content: space-around;
+    padding: 5px;
     
 
 }
@@ -413,14 +421,17 @@ footer {
     /* Header*/
 
 
-.intro-text h1 {
+
+    /*homepage*/
+.intro-text > h1 {
         margin-top: 7rem;
         display: flex;
         justify-content: center;
         padding: 20px 70px;
         flex-direction: column;
-        font-size: 300%;
-        z-index: 4;
+        font-size: 150%;
+        line-height: 4rem;
+        
 
     }
 
@@ -445,6 +456,7 @@ footer {
 
 #nav-bar li{
     padding-left: 20px;
+
 }
 
 #logo i{
@@ -491,25 +503,44 @@ footer {
     z-index: 1;
 }
 
-/* About-page */
+/* About-page 768px */
 
 #about-section {
 
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: wrap;
     flex-direction: row;
     font-size: 110%;
 }
 
 #welcome-text {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 150%;
+    justify-content: start;
+    font-size: 200%;
     padding-left: 100px;
     line-height: 3rem;
+    margin-left: 300px;
+}
+
+#bulldog-with-cupcake {
+    background: url(../images/cute-bulldog-puppy-sitting-wooden-table-generative-ai.jpg) no-repeat center /cover;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 300px;
+    margin-right: 400px;
+}
+
+#bulldog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 #opening-box{
@@ -518,29 +549,10 @@ footer {
     padding: 40px;
     padding-top: 80px;
     line-height: 1rem;
+    margin-right: 300px;
+    z-index: 1;
+    
 }
-
-#presentation-of-founder{
-font-size: 110%;
-display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-}
-
-#presentation-text{
-    width: 700px;
-    height: 700px;
-    border-radius: 110%;
-    padding: 6rem;
-}
-
-#picture-border-my-dog{
-    width: 500px;
-    height: 500px;
-
-}
-
-
 
 #border {
     width: 400px;
@@ -548,8 +560,53 @@ flex-direction: row;
     align-content: center;
     padding-top: 150px;
     padding: 120px 10px 150px 10px;
+    margin-right: 500px;
 }
 
+#presentation-of-founder{
+display: flex;
+justify-content: wrap;
+flex-direction: column;
+font-size: 90%;
+margin-bottom: 100px;
+margin-left: 100px;
+}
+
+#picture-border-my-dog {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%; 
+}
+
+#presentation-text{
+width: 600px;
+height: 600px;
+line-height: 2rem;
+padding: 90px;
+font-size: 100%;
+border-radius: 50%;
+
+
+}
+
+
+
+#calendar {
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.calander-days{
+    margin-right: 50px;
+}
+
+
+
+/* end about page*/
 
 #picture-dog4{
     display: flex;
@@ -564,6 +621,8 @@ flex-direction: row;
     max-width: 400px;
     max-height: 400px;    
 }
+
+/* homepage */
 
 
 
@@ -580,6 +639,12 @@ flex-direction: row;
 }
 
 /*form*/
+
+#form{
+    margin-top: 200px;
+}
+
+
 .submit-button:hover,
 .text-area:hover,
 .text-input:hover {
@@ -603,6 +668,10 @@ flex-direction: row;
 
 @media screen and (min-width: 900px){
 
+.intro-text{
+font-size: 300%; 
+}
+
 #picture-border5 {
     background: url(../images/pexels-sam-lion-5732437.jpg) no-repeat center /cover;
     width: 500px;
@@ -617,6 +686,48 @@ flex-direction: row;
     display: flex;
     justify-content:center
 }
+
+/*About*/
+
+#presentation-of-founder{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#picture-border-my-dog {
+width: 350px;
+height: 350px;
+
+
+}
+
+#presentation-text{
+    height: 600px;
+    width: 600px;
+    padding: 80px;
+    font-size: 90%;
+    line-height: 1.5rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: none;
+    
+    
+}
+#calendar {
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+
+}
+
+.calander-days {
+    margin-right: 50px;
+}
+
 
 }
 
