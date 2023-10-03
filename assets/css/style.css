@@ -111,14 +111,14 @@ main {
     background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
-
+/*Main homepage*/
 main h1{
     font-family: 'Neucha', serif;
     padding-top: 100px;
 
     
 }
-/*All pictures and their border on homepage*/
+/*All pictures on homepage and their border*/
 
 #picture-border {
     background: url(../images/peekingdog.jpg) no-repeat center /cover;
@@ -160,6 +160,7 @@ main h1{
     display: block;
 }
 
+/* ul on homepage*/
 
 #spoil-your-dog, h3{
     display: flex;  
@@ -182,17 +183,7 @@ main h1{
     
 }
 
-
-
-.location{
-    height: 300px;
-    width: 100%; 
-    margin-top: 30px;
-}
-
 /* Form */
-
-
 
 #contacts{
     margin-top: 30px;
@@ -249,6 +240,17 @@ main h1{
      max-height: 400px;
  }
 
+ /*map*/
+
+.location {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 50%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
 /* About us */
 
 #about-section{
@@ -256,8 +258,7 @@ main h1{
    justify-content: center;
    flex-direction: column;
    margin-top: 10px;
-   
-    
+      
 }
 
 #welcome-text{
@@ -367,17 +368,6 @@ justify-content: center;
     
     
 }
-
-
-
-#map{
-    margin-top: 10px;
-}
-#map h3{
-    text-align: center;
-}
-
-
 
 /* Footer */
 
