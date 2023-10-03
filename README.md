@@ -1,8 +1,70 @@
 # Dog Barkery
 
-hej hej https://codeinstitute.net
+Dog Barkery is a site that hopes to attract more people to their bakery and activity center, Dog Barkery. The site informs guest about opening times, weekly schedule and displays some treats that are manufactured in the bakery. The main purpose of this site is to find people who love dogs and wants to activate their dogs together with like minded people.
+
+/*bild*/ responsive 
+
+## Features
+
+### Existing Features
 
 
-<https://github.com/ElinaBoman/pp1-dogbakery/blob/main/assets/images/pexels-sam-lion-5732437.jpg>
+1. Navigation Bar
 
-bajskorv korvkorvkorv
+ * Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
+* To make it easy for the user of this site to find correct information there is a navigation bar that displays the Homepage, Aboutpage and a Contactpage. The navigation menu is full responsive and also contains the Dog Barkery logo.
+  
+2. The landing page
+
+* The landing page contains information about what the purpose of Dog Barkery is. It contains images of dogs to immediately create a connection to what the site is about.
+  
+* There is a short  list called Spoil your dog that displays that there are treats and activities for dogs. It is a way to show guests that the Dog Barkery is all about dogs and that there is not only a bakery where you as a owner can have a coffee but also lots of  treats and activities for your dog. Dog Barkery is the best place to take your dog when you want to spoil him/her really good.
+  
+3. The Footer
+
+* The footer section contains links to Dog Barkerys social medias. The links open in a new tab to make it easier for the user to control the site.
+  
+* The social medias displays picture from the Barkery and activities to allure people to pay a visit.
+
+4. About
+
+* The about us page is where  information about schedule and opening times are stored. Also there is a brief section about who the owner of Barkery is and why the company it started. This is to create a more personal feeling to the site and to make it more inviting.
+
+
+  
+* In the weekly schedule there is information about what kind of activity that are happening during the week including day, time and place. This will attract people who might be interested in trying some new activities. It also sends information about what days are more suitable for puppy's or senior dog. 
+
+* Opening times displays when the bakery is open.
+  
+5. Contact page
+   
+* This page let's the user know how to contact Dog Barkery. If the user doesn't  want to contact via social medias there is a contact form that is easy to use and will let the user know what kind of inputs that are needed. The inputs have a hover function to make it easy for the user to click in the boxes. The submit button has been enlarged to make it more accessible. The user need to enter full name, email and write the message in the box.
+
+### Features Left to Implement
+Have recipes of different dog treats who that are suitable for people to make at home.
+
+## Testing
+
+### Validator Testing
+
+* HTML
+  * XXX
+*  CSS
+   * XXX   
+
+
+
+
+### Unfixed Bugs
+1. Footer buttons
+   * Description: beskriv kortfattat
+   * Steps to reproduce: xxx
+   * Status: In progress
+
+Status investigating
+  
+
+## Deployment
+
