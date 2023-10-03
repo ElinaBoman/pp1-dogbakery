@@ -22,7 +22,7 @@ body {
 
 
 /* Header */
-header {
+header{
     background: #ffff;
     padding: 10px 10px 70px 10px;
     position: fixed;
@@ -32,19 +32,14 @@ header {
     box-shadow: 0 30px 20px -20px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
-}
-
+    align-items: baseline; }
 
 header a {
     text-decoration: none;
     color: inherit;
-
-    
 }
+
 #logo{
-   
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
     justify-content: center;
@@ -53,7 +48,6 @@ header a {
     letter-spacing: 2px;
     color: #3a3a3a;
     text-align: center;
-    
 }
 
 #logo > i{
@@ -69,7 +63,6 @@ nav{
     padding: 20px 10px 20px 0;
     display: none;
     top: 100%;
-
 }
 
 #nav-bar {
@@ -77,9 +70,9 @@ nav{
     font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
-    
- 
 }
+
+/* For underlineing buttons on navigationbar */
 
 .active{
     border-bottom: 1px solid #3a3a3a;
@@ -92,12 +85,12 @@ nav{
 }
 
 #nav-toggle{
-    display: none;
-    
+    display: none;   
 }
 
 .nav-toggle{
     font-size: 30px;
+    color: #3a3a3a;
 }
 
 /* Main */
@@ -111,12 +104,12 @@ main {
     background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
 }
 
-/*Main homepage*/
+
+/*Homepage*/
+
 main h1{
     font-family: 'Neucha', serif;
-    padding-top: 100px;
-
-    
+    padding-top: 100px;  
 }
 /*All pictures on homepage and their border*/
 
@@ -135,6 +128,8 @@ main h1{
     justify-content: center;
     margin-bottom: 20px;
 }
+
+/* Pictures are only set to work on bigger screens*/
 
 #picture-border2 {
     display: block;  
@@ -171,19 +166,16 @@ main h1{
     flex-direction: column;
     }
 
-
-
 #spoil-your-dog-list li{
     font-family: 'Neucha', serif;
     font-size: 120%;
     text-transform: uppercase;
     list-style: none;
     text-align: center;
-    line-height: 40px;
-    
+    line-height: 40px;   
 }
 
-/* Form */
+/*Contactpage*/
 
 #contacts{
     margin-top: 30px;
@@ -192,17 +184,14 @@ main h1{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
-
+/* Contact form */
 #form{
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-
 }
 
 #input-elements{
@@ -211,7 +200,7 @@ main h1{
     display: flex; 
     flex-direction: column;
     align-items: center;
-   }
+}
 
 .text-area{
     padding-block: 20px;
@@ -224,13 +213,14 @@ main h1{
     font-size: 110%;
 }
 
+
+/*End contact-form*/
+
  #picture-dog3 {
      padding-top: 20px;  
      display: flex;
      justify-content: center;
-
  }
-
  #picture-border3 {
      background: url(../images/frenchbulldog.jpg) no-repeat center /cover;
      width: 200px;
@@ -251,53 +241,25 @@ main h1{
     max-height: 500px;
 }
 
-/* About us */
+/* About us-page */
 
 #about-section{
    display: flex;
    justify-content: center;
    flex-direction: column;
    margin-top: 10px;
-      
 }
+
+/*Headline*/
 
 #welcome-text{
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    
 } 
 
-#border{
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255, 0.6);
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 300px;
-    align-content: center;
-    padding-top: 50px;
-    padding: 50px 40px 50px 40px;
-}
-
-
-
-#about {
-    display: flex;
-    justify-content: center;
-
-}
-
-#about-text{
-    margin-top: 50px;
-    font-size: 90%;
-    line-height: 2;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
- 
-}
+/*opeing-times*/
 
 #opening-box{
     margin-bottom: 10px;
@@ -312,15 +274,36 @@ main h1{
     padding: 30px 10px 10px 10px;
 }
 
+/* text favorite guests*/
+#border{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    padding-top: 50px;
+    padding: 50px 40px 50px 40px;
+}
 
-/*section 2 about */
+
+#about-text{
+    margin-top: 50px;
+    font-size: 90%;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Second section: about page: How it started... */
 
 #presentation-of-founder{
 display: flex;
 justify-content: center;
 flex-direction: column;
 font-size: 90%;
-
 }
 
 #picture-border-my-dog {
@@ -332,20 +315,19 @@ font-size: 90%;
     max-height: 500px;
     margin-top: 10px;
 }
-#presentation-text{
 
+#presentation-text{
    margin-top: 50px;
    background-color: rgb(255, 255, 255, 0.6);
    padding: 20px;
    line-height: 2rem;
 }
 
+/*Schedule*/
 
 #weekly-activites{
 display: flex;
 justify-content: center;
-
-
 }
 
 #calander{
@@ -354,8 +336,6 @@ justify-content: center;
     flex-grow: 1;
 }
 
-
-
 .calendar-days{
     background-color: rgb(255, 255, 255, 0.6);
     padding: 40px 10px 50px 10px;
@@ -363,56 +343,39 @@ justify-content: center;
     height: 220px;
     width: 220px;
     margin-bottom: 20px;
-    border-radius: 50%;
-    
-    
-    
+    border-radius: 50%;   
 }
 
 /* Footer */
 
 footer {
-    background-color: lavender;
-    padding-top: 50px;
-    height: 100px;
+    background-color: rgb(176, 176, 232);
+    padding-top: 10px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#footer-links{
+    list-style-type: none;
+    letter-spacing: 10px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
-
-}
-
-#footer-links {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-#footer-links > li {
-    list-style-type: none;
-    letter-spacing: 1px;
-    
-    
-}
-
-#footer-links i {
-    color: #3a3a3a;
     font-size: 150%;
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-    
-
+    color: black;
 }
- 
+
+
 /* Media query for tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
     /* Header*/
 
 
 
-    /*homepage*/
+/*homepage*/
 .intro-text > h1 {
         margin-top: 7rem;
         display: flex;
@@ -496,7 +459,6 @@ footer {
 /* About-page 768px */
 
 #about-section {
-
     margin-top: 100px;
     margin-left: 50px;
     display: flex;
@@ -571,15 +533,15 @@ margin-left: 100px;
 #presentation-text{
 width: 600px;
 height: 600px;
-line-height: 2rem;
+line-height: 50px;
 padding: 90px;
 font-size: 100%;
 border-radius: 50%;
-
-
 }
 
-
+#presentation-text > p {
+    line-height: 2rem;
+}
 
 #calendar {
     text-align: center;
@@ -587,7 +549,6 @@ border-radius: 50%;
     flex-grow: 1;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
 .calander-days{
@@ -653,6 +614,11 @@ border-radius: 50%;
    background-color: rgb(224, 175, 179);
 }
 
+#footer-links{
+font-size: 300%;
+display: flex;
+justify-content: space-evenly;
+padding: 0 50px 0 50px;
 }
 
 
@@ -682,15 +648,12 @@ font-size: 300%;
 #presentation-of-founder{
     display: flex;
     flex-direction: row;
-    
 }
 
 
 #picture-border-my-dog {
 width: 350px;
 height: 350px;
-
-
 }
 
 #presentation-text{
@@ -702,10 +665,9 @@ height: 350px;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: rgb(255, 255, 255, 0.6);
-    border-radius: none;
-    
-    
+    border-radius: none;  
 }
+
 #calendar {
     text-align: center;
     display: flex;
@@ -717,8 +679,6 @@ height: 350px;
 .calander-days {
     margin-right: 50px;
 }
-
-
 }
 
 
