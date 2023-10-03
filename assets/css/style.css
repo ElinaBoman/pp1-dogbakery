@@ -252,11 +252,11 @@ main h1{
 /* About us */
 
 #about-section{
-display: flex;
+   display: flex;
    justify-content: center;
    flex-direction: column;
-   margin-top: 100px;
-   margin-left: 100px;
+   margin-top: 10px;
+   margin-left: 10px;
     
 }
 
@@ -264,6 +264,8 @@ display: flex;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px;
+    
 } 
 
 #border{
@@ -272,10 +274,10 @@ display: flex;
     background-color: rgb(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     align-content: center;
-    padding-top: 150px;
+    padding-top: 50px;
     padding: 50px 40px 50px 40px;
 }
 
@@ -289,7 +291,7 @@ display: flex;
 
 #about-text{
     margin-top: 50px;
-    font-size: 110%;
+    font-size: 90%;
     line-height: 2;
     display: flex;
     justify-content: center;
@@ -299,33 +301,45 @@ display: flex;
 
 #opening-box{
     margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 15px;
     max-width: fit-content;
     background-color: rgb(255, 255, 255, 0.6);
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: 1px solid  #3a3a3a;
     border-radius: 50%;
-    padding: 60px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 
 
 #picture-border-my-dog {
     background: url(../images/mydog.jpg) no-repeat center /cover;
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     max-width: 500px;
     max-height: 500px;
+    margin-top: 10px;
 }
 
-#picture-dog {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+/*section 2 about */
+
+#presentation-of-founder{
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-size: 90%;
+
+}
+
+#presentation-text{
+
+   margin-top: 50px;
+   background-color: rgb(255, 255, 255, 0.6);
+   padding: 20px;
+   font-size: ;
 }
 
 #calendar {
@@ -484,8 +498,9 @@ footer {
     margin-top: 100px;
     margin-left: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
+    font-size: 110%;
 }
 
 #welcome-text {
@@ -496,6 +511,35 @@ footer {
     padding-left: 100px;
     line-height: 3rem;
 }
+
+#opening-box{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+    padding-top: 80px;
+    line-height: 1rem;
+}
+
+#presentation-of-founder{
+font-size: 110%;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+
+#presentation-text{
+    width: 700px;
+    height: 700px;
+    border-radius: 110%;
+    padding: 6rem;
+}
+
+#picture-border-my-dog{
+    width: 500px;
+    height: 500px;
+
+}
+
 
 
 #border {
