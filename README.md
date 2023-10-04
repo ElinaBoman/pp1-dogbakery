@@ -2,7 +2,7 @@
 
 Dog Barkery is a site that hopes to attract more people to their bakery and activity center, Dog Barkery. The site informs guest about opening times, weekly schedule and displays some treats that are manufactured in the bakery. The main purpose of this site is to find people who love dogs and wants to activate their dogs together with like minded people.
 
-![Responsive](http://docs./responsive.png)
+![Responsive](docs./responsive.png)
 
 ## Design
 
