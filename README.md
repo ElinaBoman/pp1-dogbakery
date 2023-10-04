@@ -99,9 +99,11 @@ The live link can be found here:
 ## Credits 
 
 * Content
-  The Favicons in the header and footer menu comes from Font Awesome.
-  Instructions have to add hover function has been taken from W3 Schools.
-  Instructions how to make a picture into a circle shape comes from The love Running project.
+  * The Favicons in the header and footer menu comes from Font Awesome.
+  * Instructions have to add hover function has been taken from W3 Schools.
+  * Instructions how to make a picture into a circle shape comes from The love Running project.
+  * Information on how to built a website has been learned with Love Running project.
+  * Fonts have been imported from Google fonts.
 
 * Media
   *  Pexels
@@ -110,8 +112,12 @@ The live link can be found here:
      *  french bulldog
      *  peeking dog
      *  two dogs with party hat
+
+
   * Istock Photo
     * white dog with cupcake
+  
+  
   * Google Photo:  
     *   The dotted background can be found with this link: <https://images.app.goo.gl/eT2BWZFSF6MCSRWF6>.
   
@@ -120,5 +126,6 @@ The live link can be found here:
   * Mentor Brian O'Hare.
   * Slack channels along with my peers and their discussions and analysis.
   * My friend Annika Davies.
+  * W3 Schools
   
 
