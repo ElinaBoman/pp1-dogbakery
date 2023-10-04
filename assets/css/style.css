@@ -134,13 +134,13 @@ main h1{
 #picture-border2 {
     display: block;  
  }
+
 #picture-dog2 {
     display: block;
 }
 
  #picture-dog4 {
     display: block;
-
 }
 
 #picture-border4 {
@@ -287,7 +287,6 @@ main h1{
     padding: 50px 40px 50px 40px;
 }
 
-
 #about-text{
     margin-top: 50px;
     font-size: 90%;
@@ -384,9 +383,7 @@ footer {
         flex-direction: column;
         font-size: 150%;
         line-height: 4rem;
-        
-
-    }
+}
 
     nav { 
         display: block;
@@ -403,24 +400,19 @@ footer {
 
 #nav-bar {
     display: flex;
-    flex-direction: row;
-   
+    flex-direction: row; 
 }
 
 #nav-bar li{
     padding-left: 20px;
-
 }
 
 #logo i{
     display: contents;
-
-
 }
 
 .intro-text{
-    font-size: 150%;
-   
+    font-size: 150%;  
 }
 
 #spoil-your-dog, h3{
@@ -431,9 +423,9 @@ footer {
     display: flex;
     justify-content:center;
     z-index: 1;
-
-    
 }
+
+/* Pictures unblocked for bigger screens*/
 
 #picture-border {
     background: url(../images/peekingdog.jpg) no-repeat center /cover;
@@ -456,7 +448,21 @@ footer {
     z-index: 1;
 }
 
-/* About-page 768px */
+#picture-dog4{
+    display: flex;
+    justify-content: center;
+    z-index: 3; 
+}
+#picture-border4{
+     background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;    
+}
+
+/* About-page min 768px */
 
 #about-section {
     margin-top: 100px;
@@ -502,8 +508,7 @@ footer {
     padding-top: 80px;
     line-height: 1rem;
     margin-right: 300px;
-    z-index: 1;
-    
+    z-index: 1;   
 }
 
 #border {
@@ -554,28 +559,9 @@ border-radius: 50%;
 .calander-days{
     margin-right: 50px;
 }
-
-
-
 /* end about page*/
 
-#picture-dog4{
-    display: flex;
-    justify-content: center;
-    z-index: 3; 
-}
-#picture-border4{
-     background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    max-width: 400px;
-    max-height: 400px;    
-}
-
-/* homepage */
-
-
+/* homepage screens min 768px */
 
 #pictures-dogs-bigscreen {
     display: flex;
@@ -589,12 +575,13 @@ border-radius: 50%;
     line-height: 100px;
 }
 
-/*form*/
+/*Form screens min 768px*/
 
 #form{
     margin-top: 200px;
 }
 
+/*Hover function in form*/
 
 .submit-button:hover,
 .text-area:hover,
@@ -614,6 +601,7 @@ border-radius: 50%;
    background-color: rgb(224, 175, 179);
 }
 
+/* To make footer socialmedia icons bigger*/
 #footer-links{
 font-size: 300%;
 display: flex;
@@ -652,8 +640,8 @@ font-size: 300%;
 
 
 #picture-border-my-dog {
-width: 350px;
-height: 350px;
+    width: 350px;
+    height: 350px;
 }
 
 #presentation-text{
@@ -680,8 +668,3 @@ height: 350px;
     margin-right: 50px;
 }
 }
-
-
-    
-
-
