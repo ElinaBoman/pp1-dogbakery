@@ -233,6 +233,7 @@ h3 {
 #map{
     display: flex;
     justify-content: center;
+    
 }
 #map > iframe{
 display: flex;
@@ -341,7 +342,7 @@ max-height: 500px;
 
 .calendar-days {
     background-color: rgb(255, 255, 255, 0.6);
-    padding: 40px 10px 50px 10px;
+    padding: 30px 10px 50px 10px;
     text-align: center;
     height: 220px;
     width: 220px;
