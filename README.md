@@ -2,6 +2,9 @@
 
 Dog Barkery is a website that aspires to attract more people to their bakery and activity center, Dog Barkery. The site informs guest about opening times, weekly schedule and location. The main purpose of this site is to find people who love dogs and wants to activate their dogs together with likeminded people.
 
+To use the website, simply navigate to the following URL:
+<https://elinaboman.github.io/pp1-dogbakery/>
+
 ![Responsive](docs./responsive.png)
 
 ## Design
@@ -113,6 +116,7 @@ The live link can be found here:
   * Instructions on how to add a picture into a circle shape comes from The love Running project at Code Institute.
   * Information on how to built a website has been learned with Love Running project at the Code Institute.
   * Fonts have been imported from Google fonts.
+  - The construction of README file where inspired by the user Apollon999 from Githubs README for Tiny-Travelers. The construction of the README file where also based on the Code Institutes Love Running projects README.
 
 * Media Images
   *  Pexels
