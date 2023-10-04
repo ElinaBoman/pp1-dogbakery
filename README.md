@@ -84,7 +84,6 @@ There are some estetic malfunctions with the toggle-bar. On smaller screens, whe
   
   ![Lighthouse testing](docs./lighthouse.png)
 
-
 ### Unfixed Bugs
 
 1. Footer buttons
