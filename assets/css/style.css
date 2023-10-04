@@ -1,18 +1,19 @@
-/* Google fonts import */
+
+/*google fonts import*/
 
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
 
 /* Wildcard selector */
 
-* {
-    padding:0;
+*{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 
 /* Body general styles */
-body {
+body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -32,14 +33,15 @@ header{
     box-shadow: 0 30px 20px -20px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline; }
+    align-items: baseline;
+}
 
 header a {
     text-decoration: none;
     color: inherit;
 }
 
-#logo{
+#logo {
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
     justify-content: center;
@@ -50,11 +52,11 @@ header a {
     text-align: center;
 }
 
-#logo > i{
+#logo>i {
     display: none;
 }
 
-nav{
+nav {
     position: absolute;
     background-color: #ffff;
     width: 100%;
@@ -74,7 +76,7 @@ nav{
 
 /* For underlineing buttons on navigationbar */
 
-.active{
+.active {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -84,36 +86,37 @@ nav{
     display: block;
 }
 
-#nav-toggle{
-    display: none;   
+#nav-toggle {
+    display: none;
 }
 
-.nav-toggle{
+.nav-toggle {
     font-size: 30px;
     color: #3a3a3a;
 }
 
 /* Main */
 
-main {   
-/* make main element take up surplus space */
+main {
+    /* make main element take up surplus space */
     flex: 1 0 auto;
-    margin-top: 100px; 
+    margin-top: 100px;
     text-align: center;
     line-height: 30px;
-    background: url('../images/dots-header.webp') no-repeat center center/ cover cornsilk;
+    background: url('../images/dots-background.webp') no-repeat center center/ cover cornsilk;
 }
 
 
 /*Homepage*/
 
-main h1{
+main h1 {
     font-family: 'Neucha', serif;
-    padding-top: 100px;  
+    padding-top: 100px;
 }
+
 /*All pictures on homepage and their border*/
 
-#picture-border {
+#picture-border-peeking-dog {
     background: url(../images/peekingdog.jpg) no-repeat center /cover;
     width: 200px;
     height: 200px;
@@ -122,7 +125,7 @@ main h1{
     max-height: 400px;
 }
 
-#picture-dog { 
+#picture-peeking-dog {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,82 +134,76 @@ main h1{
 
 /* Pictures are only set to work on bigger screens*/
 
-#picture-border2 {
-    display: block;  
- }
-
-#picture-dog2 {
+#picture-border-dog-with-lollipop {
     display: block;
 }
 
- #picture-dog4 {
+#picture-dog-with-lollipop {
     display: block;
 }
 
-#picture-border4 {
+#picture-white-dog-cupcake {
     display: block;
 }
 
-#picture-dog5 {
+#picture-border-white-dog-cupcake {
     display: block;
 }
 
-#picture-border5 {
+#picture-two-dogs-with-party-hats {
+    display: block;
+}
+
+#picture-border-two-dogs-with-party-hats {
     display: block;
 }
 
 /* ul on homepage*/
 
-#spoil-your-dog, h3{
-    display: flex;  
+#spoil-your-dog,
+h3 {
+    display: flex;
     justify-content: center;
     padding: 10px;
-    font-family: 'Neucha',serif;
+    font-family: 'Neucha', serif;
     text-transform: uppercase;
     flex-direction: column;
-    }
+}
 
-#spoil-your-dog-list li{
+#spoil-your-dog-list li {
     font-family: 'Neucha', serif;
     font-size: 120%;
     text-transform: uppercase;
     list-style: none;
     text-align: center;
-    line-height: 40px;   
+    line-height: 40px;
 }
 
 /*Contactpage*/
 
-#contacts{
-    margin-top: 30px;
-    background-color:rgba(255, 255, 255, 0.96);
-    font-size: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 /* Contact form */
-#form{
+
+#form {
     margin-top: 50px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
-#input-elements{
-    padding: px;
+#form-content > p{
+    max-width: 500px;
+}
+
+#input-elements, #form-content{
     font-size: 90%;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.text-area{
-    padding-block: 20px;
-}
-
-.submit-button{
+.submit-button {
     height: 50px;
     width: 100px;
     background-color: rgb(255, 255, 255, 0.4);
@@ -216,21 +213,22 @@ main h1{
 
 /*End contact-form*/
 
- #picture-dog3 {
-     padding-top: 20px;  
-     display: flex;
-     justify-content: center;
- }
- #picture-border3 {
-     background: url(../images/frenchbulldog.jpg) no-repeat center /cover;
-     width: 200px;
-     height: 200px;
-     border-radius: 50%;
-     max-width: 400px;
-     max-height: 400px;
- }
+#picture-french-bulldog {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 
- /*map*/
+#picture-border-french-bulldog {
+    background: url(../images/french-bulldog.jpg) no-repeat center /cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+/*map*/
 
 .location {
     height: 300px;
@@ -243,25 +241,25 @@ main h1{
 
 /* About us-page */
 
-#about-section{
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   margin-top: 10px;
+#about-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 /*Headline*/
 
-#welcome-text{
+#welcome-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-} 
+}
 
 /*opeing-times*/
 
-#opening-box{
+#opening-box {
     margin-bottom: 10px;
     line-height: 15px;
     max-width: fit-content;
@@ -275,7 +273,7 @@ main h1{
 }
 
 /* text favorite guests*/
-#border{
+#border {
     border-radius: 50%;
     background-color: rgb(255, 255, 255, 0.6);
     display: flex;
@@ -287,7 +285,7 @@ main h1{
     padding: 50px 40px 50px 40px;
 }
 
-#about-text{
+#about-text {
     margin-top: 50px;
     font-size: 90%;
     line-height: 2;
@@ -298,11 +296,11 @@ main h1{
 
 /* Second section: about page: How it started... */
 
-#presentation-of-founder{
-display: flex;
-justify-content: center;
-flex-direction: column;
-font-size: 90%;
+#presentation-of-founder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 90%;
 }
 
 #picture-border-my-dog {
@@ -315,34 +313,34 @@ font-size: 90%;
     margin-top: 10px;
 }
 
-#presentation-text{
-   margin-top: 50px;
-   background-color: rgb(255, 255, 255, 0.6);
-   padding: 20px;
-   line-height: 2rem;
+#presentation-text {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255, 0.6);
+    padding: 20px;
+    line-height: 2rem;
 }
 
 /*Schedule*/
 
-#weekly-activites{
-display: flex;
-justify-content: center;
+#weekly-activites {
+    display: flex;
+    justify-content: center;
 }
 
-#calander{
+#calander {
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
 }
 
-.calendar-days{
+.calendar-days {
     background-color: rgb(255, 255, 255, 0.6);
     padding: 40px 10px 50px 10px;
     text-align: center;
     height: 220px;
     width: 220px;
     margin-bottom: 20px;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 /* Footer */
@@ -357,7 +355,7 @@ footer {
 }
 
 
-#footer-links{
+#footer-links {
     list-style-type: none;
     letter-spacing: 10px;
     display: flex;
@@ -374,71 +372,71 @@ footer {
 
 
 
-/*homepage*/
-.intro-text > h1 {
-        margin-top: 7rem;
-        display: flex;
-        justify-content: center;
-        padding: 20px 70px;
-        flex-direction: column;
-        font-size: 150%;
-        line-height: 4rem;
+    /*homepage*/
+.intro-text>h1 {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    padding: 20px 70px;
+    flex-direction: column;
+    font-size: 150%;
+    line-height: 4rem;
 }
 
-    nav { 
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 20px;
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 20px;
 
-    }
+}
 
-.nav-toggle{
+.nav-toggle {
     display: none;
 }
 
 #nav-bar {
     display: flex;
-    flex-direction: row; 
-}
+    flex-direction: row;
+    }
 
-#nav-bar li{
+#nav-bar li {
     padding-left: 20px;
 }
 
-#logo i{
-    display: contents;
+#logo i {
+     display: contents;
 }
 
-.intro-text{
-    font-size: 150%;  
-}
+.intro-text {
+        font-size: 150%;
+    }
 
-#spoil-your-dog, h3{
+#spoil-your-dog, h3 {
     font-size: 150%;
 }
 
-#picture-dog {
+#picture-peeking-dog {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     z-index: 1;
 }
 
-/* Pictures unblocked for bigger screens*/
+    /* Pictures unblocked for bigger screens*/
 
-#picture-border {
-    background: url(../images/peekingdog.jpg) no-repeat center /cover;
+#picture-border-peeking-dog {
+    background: url(../images/peeking-dog.jpg) no-repeat center /cover;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     max-width: 400px;
     max-height: 400px;
     z-index: 2;
-}
+    }
 
-#picture-border2 {
-    background: url(../images/dogparthat.jpg) no-repeat center /cover;
+#picture-border-dog-with-lollipop {
+    background: url(../images/dog-with-lollipop.jpg) no-repeat center /cover;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -446,29 +444,29 @@ footer {
     max-height: 400px;
     display: block;
     z-index: 1;
-}
+    }
 
-#picture-dog4{
+#picture-white-dog-with-cupcake {
     display: flex;
     justify-content: center;
-    z-index: 3; 
-}
-#picture-border4{
-     background: url(../images/ruthblack-istock.jpeg) no-repeat center /cover;
+    z-index: 3;
+    }
+
+#picture-border-white-dog-with-cupcake {
+    background: url(../images/white-dog-with-cupcake.jpeg) no-repeat center /cover;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     max-width: 400px;
-    max-height: 400px;    
+    max-height: 400px;
 }
 
-/* About-page min 768px */
+    /* About-page min 768px */
 
 #about-section {
     margin-top: 100px;
     margin-left: 50px;
     display: flex;
-    justify-content: wrap;
     flex-direction: row;
     font-size: 110%;
 }
@@ -480,10 +478,10 @@ footer {
     padding-left: 100px;
     line-height: 3rem;
     margin-left: 300px;
-}
+    }
 
-#bulldog-with-cupcake {
-    background: url(../images/cute-bulldog-puppy-sitting-wooden-table-generative-ai.jpg) no-repeat center /cover;
+#bulldog-puppy-sitting-wooden-table {
+    background: url(../images/bulldog-puppy-sitting-wooden-table.jpg) no-repeat center /cover;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -495,20 +493,20 @@ footer {
     margin-right: 400px;
 }
 
-#bulldog {
+#border-bulldog-puppy-sitting-wooden-table {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-#opening-box{
+#opening-box {
     width: 300px;
     height: 300px;
     padding: 40px;
     padding-top: 80px;
     line-height: 1rem;
     margin-right: 300px;
-    z-index: 1;   
+    z-index: 1;
 }
 
 #border {
@@ -520,28 +518,27 @@ footer {
     margin-right: 500px;
 }
 
-#presentation-of-founder{
-display: flex;
-justify-content: wrap;
-flex-direction: column;
-font-size: 90%;
-margin-bottom: 100px;
-margin-left: 100px;
+#presentation-of-founder {
+    display: flex;
+    flex-direction: column;
+    font-size: 90%;
+    margin-bottom: 100px;
+    margin-left: 100px;
 }
 
 #picture-border-my-dog {
     height: 400px;
     width: 400px;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
-#presentation-text{
-width: 600px;
-height: 600px;
-line-height: 50px;
-padding: 90px;
-font-size: 100%;
-border-radius: 50%;
+#presentation-text {
+    width: 600px;
+    height: 600px;
+    line-height: 50px;
+    padding: 90px;
+    font-size: 100%;
+    border-radius: 50%;
 }
 
 #presentation-text > p {
@@ -556,18 +553,19 @@ border-radius: 50%;
     flex-wrap: wrap;
 }
 
-.calander-days{
-    margin-right: 50px;
+.calander-days {
+     margin-right: 50px;
 }
-/* end about page*/
 
-/* homepage screens min 768px */
+    /* end about page*/
+
+    /* homepage screens min 768px */
 
 #pictures-dogs-bigscreen {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 5rem;
+     margin-top: 5rem;
 }
 
 
@@ -575,13 +573,9 @@ border-radius: 50%;
     line-height: 100px;
 }
 
-/*Form screens min 768px*/
+    /*Form screens min 768px*/
 
-#form{
-    margin-top: 200px;
-}
-
-/*Hover function in form*/
+    /*Hover function in form*/
 
 .submit-button:hover,
 .text-area:hover,
@@ -598,26 +592,26 @@ border-radius: 50%;
 }
 
 .contact-hover:hover {
-   background-color: rgb(224, 175, 179);
+        background-color: rgb(224, 175, 179);
 }
 
-/* To make footer socialmedia icons bigger*/
-#footer-links{
-font-size: 300%;
-display: flex;
-justify-content: space-evenly;
-padding: 0 50px 0 50px;
+    /* To make footer socialmedia icons bigger*/
+#footer-links {
+    font-size: 300%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px 0 50px;
+}
 }
 
+@media screen and (min-width: 900px) {
 
-@media screen and (min-width: 900px){
-
-.intro-text{
-font-size: 300%; 
+.intro-text {
+    font-size: 300%;
 }
 
-#picture-border5 {
-    background: url(../images/pexels-sam-lion-5732437.jpg) no-repeat center /cover;
+#picture-border-two-dogs-with-party-hats {
+    background: url(../images/two-dogs-with-party-hats.jpg) no-repeat center /cover;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -626,14 +620,14 @@ font-size: 300%;
     margin-top: 20px;
 }
 
-#picture-dog5 {
+#picture-two-dogs-with-party-hats {
     display: flex;
-    justify-content:center
+    justify-content: center
 }
 
-/*About*/
+        /*About*/
 
-#presentation-of-founder{
+#presentation-of-founder {
     display: flex;
     flex-direction: row;
 }
@@ -644,7 +638,7 @@ font-size: 300%;
     height: 350px;
 }
 
-#presentation-text{
+#presentation-text {
     height: 600px;
     width: 600px;
     padding: 80px;
@@ -653,7 +647,6 @@ font-size: 300%;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: rgb(255, 255, 255, 0.6);
-    border-radius: none;  
 }
 
 #calendar {
@@ -661,10 +654,9 @@ font-size: 300%;
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
-
 }
 
 .calander-days {
     margin-right: 50px;
-}
+}            
 }
