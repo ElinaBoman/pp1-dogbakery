@@ -117,7 +117,7 @@ main h1 {
 /*All pictures on homepage and their border*/
 
 #picture-border-peeking-dog {
-    background: url(../images/peekingdog.jpg) no-repeat center /cover;
+    background: url(../images/peeking-dog.jpg) no-repeat center /cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -230,13 +230,19 @@ h3 {
 
 /*map*/
 
-.location {
-    height: 300px;
-    width: 300px;
-    margin-top: 30px;
-    border-radius: 50%;
-    max-width: 500px;
-    max-height: 500px;
+#map{
+    display: flex;
+    justify-content: center;
+}
+#map > iframe{
+display: flex;
+justify-content: center;
+border-radius: 50%;    
+height: 400px;
+width: 400px;    
+margin-top: 30px;
+max-width: 500px;
+max-height: 500px;
 }
 
 /* About us-page */
@@ -461,6 +467,20 @@ nav {
     max-height: 400px;
 }
 
+#picture-border-two-dogs-with-party-hats {
+    background: url(../images/two-dogs-with-party-hats.jpg) no-repeat center /cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 20px;
+}
+
+#picture-two-dogs-with-party-hats {
+    display: flex;
+    justify-content: center
+}
     /* About-page min 768px */
 
 #about-section {
@@ -610,20 +630,6 @@ nav {
     font-size: 300%;
 }
 
-#picture-border-two-dogs-with-party-hats {
-    background: url(../images/two-dogs-with-party-hats.jpg) no-repeat center /cover;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    max-width: 400px;
-    max-height: 400px;
-    margin-top: 20px;
-}
-
-#picture-two-dogs-with-party-hats {
-    display: flex;
-    justify-content: center
-}
 
         /*About*/
 
