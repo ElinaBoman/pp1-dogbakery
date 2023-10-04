@@ -6,7 +6,8 @@ Dog Barkery is a website that aspires to attract more people to their bakery and
 
 ## Design
 
-The main goal with the design of this site was to make it look fun and inviting. The pictures that has been used are fun to look at but are also clean and colorful. The dotted background was choosen because it had a very nice color palette and the dots matched the over all circle style of the website. Some divs and all pictures were put inside circles. This was done to make the website playful and easy on the eye.
+The main goal with the design of this website was to make it look fun and inviting. By using Balsamic Wireframe the basic structure of Dog Barkery was created. The pictures in the website that has been used are fun to look at but also clean and colorful. The dotted background was choosen because it had a very nice color palette and the dots matched the over all circle style of the website. A couple of divs along with all pictures were put inside circles. This was done to make the website playful and easy on the eye.
+![Design](docs./balsamiqwireframe.png)
 
 ## Features
 
@@ -60,6 +61,7 @@ The main goal with the design of this site was to make it look fun and inviting.
 - W3C:s CSS-validator
 - WRC:s HTML validator
 - Lighthouse
+- Balsamiq Wireframes
   
 
 ## Testing
