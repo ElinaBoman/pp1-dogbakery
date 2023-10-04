@@ -76,13 +76,14 @@ There are some estetic malfunctions with the toggle-bar. On smaller screens, whe
 
 - HTML
   - No errors were returned when passing through the official W3C validator.
-  
+  ![Validation HTML](docs./validatortesting-html.png)
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator.
-
+![Validation CSS](docs./validatortesting-css.png)!
 - Lighthouse testing
   
-<!---Add picture from lighthouse and validator testing html css--->
+  ![Lighthouse testing](docs./lighthouse.png)
+
 
 ### Unfixed Bugs
 
