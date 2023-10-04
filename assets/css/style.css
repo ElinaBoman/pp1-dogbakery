@@ -233,7 +233,6 @@ h3 {
 #map{
     display: flex;
     justify-content: center;
-
 }
 #map > iframe{
 display: flex;
@@ -244,7 +243,6 @@ width: 400px;
 margin-top: 30px;
 max-width: 500px;
 max-height: 500px;
-
 }
 
 /* About us-page */

@@ -42,7 +42,7 @@ The main goal with the design of this website was to make it look fun and inviti
 
 1. Contact
 
-- This page let's the user know how to contact Dog Barkery. If the user doesn't want to contact via social medias there is a contact form that is easy to use and will let the user know what kind of inputs are needed. The inputs have a hover function to make it easy for the user to click inside the boxes. The submit button has been enlarged to make it more accessible. The user needs to enter first name, last name and email.
+- This page let's the user know how to contact Dog Barkery. If the user doesn't want to contact via social medias there is a contact form that is easy to use and will let the user know what kind of inputs are needed. The inputs have a hover function to make it easy for the user to click inside the boxes. The submit button has been enlarged to make it more accessible. The user needs to enter first name, last name and email. In the bottom of the page there is a map to Dog Bakerys location. 
 ![Contact form](docs./contactform.png)
 
 ### Features Left to Implement
