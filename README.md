@@ -10,7 +10,7 @@ To use the website, simply navigate to the following URL:
 
 ## Design
 
-The main goal with the design of this website was to make it look fun and inviting. By using Balsamic Wireframe the basic structure of Dog Barkery was created. The pictures in the website that has been used are fun to look at but also clean and colorful. The dotted background was choosen because it had a very nice color palette and the dots matched the over all circle style of the website. A couple of divs along with all pictures were put inside circles. This was done to make the website playful and easy on the eye.
+The main goal with the design of this website was to make it look fun and inviting. By using Balsamic Wireframe the basic structure of Dog Barkery was created. The pictures in the website that has been used are fun to look at but also clean and colorful. The dotted background was choosen because it had a very nice color palette and the dots matched the over all circle style of the website. A couple of divs along with all pictures were put inside circles. This was done to make the website playful and easy on the eye. 
 ![Design](docs./balsamiqwireframe.png)
 
 ## Features
@@ -100,6 +100,9 @@ There are some estetic malfunctions with the toggle-bar. On smaller screens, whe
 2. Toggle-menu
   * Description: The toggle-menu as mentioned previously in the testing section has some estetic malfunction. The issue is believed to have to do with padding on the left side.
   * Status: Fixed.
+  
+3. Since all the pictures are placed in divs instead of img-format, there are no aria-labels in the pictures. This issue has been noted. To fix this problem the pictures could be placed in img-format inside the divs.
+* Status: Under investigation.
 
 
 ## Deployment
