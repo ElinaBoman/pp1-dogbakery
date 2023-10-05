@@ -3,6 +3,7 @@
 Dog Barkery is a website that aspires to attract more people to their bakery and activity center, Dog Barkery. The site informs guest about opening times, weekly schedule and location. The main purpose of this site is to find people who love dogs and wants to activate their dogs together with likeminded people.
 
 To use the website, simply navigate to the following URL:
+
 <https://elinaboman.github.io/pp1-dogbakery/>
 
 ![Responsive](docs./responsive.png)
