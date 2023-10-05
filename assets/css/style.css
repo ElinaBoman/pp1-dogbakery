@@ -101,7 +101,6 @@ main{
     background: url('../images/dots-background.webp') no-repeat center center/ cover cornsilk;
 }
 
-
 /*Homepage*/
 main h1{
     font-family: 'Neucha', serif;
@@ -198,7 +197,6 @@ h3{
     background-color: rgb(255, 255, 255, 0.4);
     font-size: 110%;
 }
-
 
 /*End contact-form*/
 
@@ -417,7 +415,6 @@ nav{
     z-index: 2;
  }
 
-
 #picture-border-dog-with-lollipop{
     background: url(../images/dog-with-lollipop.jpg) no-repeat center /cover;
     width: 400px;
@@ -565,7 +562,6 @@ nav{
      margin-top: 5rem;
 }
 
-
 #spoil-your-dog-list{
     line-height: 100px;
 }
@@ -607,13 +603,11 @@ nav{
     font-size: 300%;
 }
 
-
         /*About*/
 #presentation-of-founder{
     display: flex;
     flex-direction: row;
 }
-
 
 #picture-border-my-dog{
     width: 350px;
