@@ -99,7 +99,7 @@ There are some estetic malfunctions with the toggle-bar. On smaller screens, whe
 
 2. Toggle-menu
   * Description: The toggle-menu as mentioned previously in the testing section has some estetic malfunction. The issue is believed to have to do with padding on the left side.
-  * Status: In progress.
+  * Status: Fixed.
 
 
 ## Deployment

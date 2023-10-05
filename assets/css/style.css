@@ -4,13 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap');
 
 /* Wildcard selector */
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 /* Body general styles */
 body{
@@ -20,7 +18,6 @@ body{
     color: darkslategray;
     font-family: 'Noto Serif JP', sans-serif;
 }
-
 
 /* Header */
 header{
@@ -36,12 +33,12 @@ header{
     align-items: baseline;
 }
 
-header a {
+header a{
     text-decoration: none;
     color: inherit;
 }
 
-#logo {
+#logo{
     padding: 1rem 2rem 1rem 4rem;
     display: flex;
     justify-content: center;
@@ -52,11 +49,11 @@ header a {
     text-align: center;
 }
 
-#logo>i {
+#logo > i{
     display: none;
 }
 
-nav {
+nav{
     position: absolute;
     background-color: #ffff;
     width: 100%;
@@ -67,37 +64,35 @@ nav {
     top: 100%;
 }
 
-#nav-bar {
+#nav-bar{
     list-style-type: none;
     font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-left: 20px;
 }
 
 /* For underlineing buttons on navigationbar */
-
-.active {
+.active{
     border-bottom: 1px solid #3a3a3a;
 }
 
-
 /* Nav-toggle (Inspired and created together with the Love Running project. */
-#nav-toggle:checked~nav {
+#nav-toggle:checked~nav{
     display: block;
 }
 
-#nav-toggle {
+#nav-toggle{
     display: none;
 }
 
-.nav-toggle {
+.nav-toggle{
     font-size: 30px;
     color: #3a3a3a;
 }
 
 /* Main */
-
-main {
+main{
     /* make main element take up surplus space */
     flex: 1 0 auto;
     margin-top: 100px;
@@ -108,15 +103,13 @@ main {
 
 
 /*Homepage*/
-
-main h1 {
+main h1{
     font-family: 'Neucha', serif;
     padding-top: 100px;
 }
 
 /*All pictures on homepage and their border*/
-
-#picture-border-peeking-dog {
+#picture-border-peeking-dog{
     background: url(../images/peeking-dog.jpg) no-repeat center /cover;
     width: 200px;
     height: 200px;
@@ -125,7 +118,7 @@ main h1 {
     max-height: 400px;
 }
 
-#picture-peeking-dog {
+#picture-peeking-dog{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -133,35 +126,33 @@ main h1 {
 }
 
 /* Pictures are only set to work on bigger screens*/
-
-#picture-border-dog-with-lollipop {
+#picture-border-dog-with-lollipop{
     display: block;
 }
 
-#picture-dog-with-lollipop {
+#picture-dog-with-lollipop{
     display: block;
 }
 
-#picture-white-dog-cupcake {
+#picture-white-dog-cupcake{
     display: block;
 }
 
-#picture-border-white-dog-cupcake {
+#picture-border-white-dog-cupcake{
     display: block;
 }
 
-#picture-two-dogs-with-party-hats {
+#picture-two-dogs-with-party-hats{
     display: block;
 }
 
-#picture-border-two-dogs-with-party-hats {
+#picture-border-two-dogs-with-party-hats{
     display: block;
 }
 
 /* ul on homepage*/
-
 #spoil-your-dog,
-h3 {
+h3{
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -170,7 +161,7 @@ h3 {
     flex-direction: column;
 }
 
-#spoil-your-dog-list li {
+#spoil-your-dog-list li{
     font-family: 'Neucha', serif;
     font-size: 120%;
     text-transform: uppercase;
@@ -181,10 +172,8 @@ h3 {
 
 /*Contactpage*/
 
-
 /* Contact form */
-
-#form {
+#form{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -203,7 +192,7 @@ h3 {
     align-items: center;
 }
 
-.submit-button {
+.submit-button{
     height: 50px;
     width: 100px;
     background-color: rgb(255, 255, 255, 0.4);
@@ -213,13 +202,13 @@ h3 {
 
 /*End contact-form*/
 
-#picture-french-bulldog {
+#picture-french-bulldog{
     padding-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-#picture-border-french-bulldog {
+#picture-border-french-bulldog{
     background: url(../images/french-bulldog.jpg) no-repeat center /cover;
     width: 200px;
     height: 200px;
@@ -229,11 +218,11 @@ h3 {
 }
 
 /*map*/
-
 #map{
     display: flex;
     justify-content: center;
 }
+
 #map > iframe{
 display: flex;
 justify-content: center;
@@ -246,8 +235,7 @@ max-height: 500px;
 }
 
 /* About us-page */
-
-#about-section {
+#about-section{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -255,8 +243,7 @@ max-height: 500px;
 }
 
 /*Headline*/
-
-#welcome-text {
+#welcome-text{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -264,8 +251,7 @@ max-height: 500px;
 }
 
 /*opeing-times*/
-
-#opening-box {
+#opening-box{
     margin-bottom: 10px;
     line-height: 15px;
     max-width: fit-content;
@@ -279,7 +265,7 @@ max-height: 500px;
 }
 
 /* text favorite guests*/
-#border {
+#border{
     border-radius: 50%;
     background-color: rgb(255, 255, 255, 0.6);
     display: flex;
@@ -291,7 +277,7 @@ max-height: 500px;
     padding: 50px 40px 50px 40px;
 }
 
-#about-text {
+#about-text{
     margin-top: 50px;
     font-size: 90%;
     line-height: 2;
@@ -301,15 +287,14 @@ max-height: 500px;
 }
 
 /* Second section: about page: How it started... */
-
-#presentation-of-founder {
+#presentation-of-founder{
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-size: 90%;
 }
 
-#picture-border-my-dog {
+#picture-border-my-dog{
     background: url(../images/mydog.jpg) no-repeat center /cover;
     width: 250px;
     height: 250px;
@@ -319,7 +304,7 @@ max-height: 500px;
     margin-top: 10px;
 }
 
-#presentation-text {
+#presentation-text{
     margin-top: 50px;
     background-color: rgb(255, 255, 255, 0.6);
     padding: 20px;
@@ -328,18 +313,18 @@ max-height: 500px;
 
 /*Schedule*/
 
-#weekly-activites {
+#weekly-activites{
     display: flex;
     justify-content: center;
 }
 
-#calander {
+#calander{
     display: flex;
     justify-content: space-evenly;
     flex-grow: 1;
 }
 
-.calendar-days {
+.calendar-days{
     background-color: rgb(255, 255, 255, 0.6);
     padding: 30px 10px 50px 10px;
     text-align: center;
@@ -350,8 +335,7 @@ max-height: 500px;
 }
 
 /* Footer */
-
-footer {
+footer{
     background-color: rgb(176, 176, 232);
     padding-top: 10px;
     height: 110px;
@@ -360,8 +344,7 @@ footer {
     justify-content: space-evenly;
 }
 
-
-#footer-links {
+#footer-links{
     list-style-type: none;
     letter-spacing: 10px;
     display: flex;
@@ -371,15 +354,11 @@ footer {
     color: black;
 }
 
-
 /* Media query for tablets and larger (768px and up */
 @media screen and (min-width: 768px) {
     /* Header*/
-
-
-
-    /*homepage*/
-.intro-text>h1 {
+    /* Homepage */
+.intro-text>h1{
     margin-top: 7rem;
     display: flex;
     justify-content: center;
@@ -389,49 +368,46 @@ footer {
     line-height: 4rem;
 }
 
-nav {
+nav{
     display: block;
     position: relative;
     box-shadow: none;
     width: fit-content;
     padding-right: 20px;
-
 }
 
-.nav-toggle {
+.nav-toggle{
     display: none;
 }
 
-#nav-bar {
+#nav-bar{
     display: flex;
     flex-direction: row;
-    }
+}
 
-#nav-bar li {
+#nav-bar li{
     padding-left: 20px;
 }
 
-#logo i {
+#logo i{
      display: contents;
 }
 
-.intro-text {
+.intro-text{
         font-size: 150%;
-    }
-
-#spoil-your-dog, h3 {
-    font-size: 150%;
 }
 
-#picture-peeking-dog {
+#spoil-your-dog, h3{
+    font-size: 150%;
+}
+/* Pictures unblocked for bigger screens*/
+#picture-peeking-dog{
     display: flex;
     justify-content: center;
     z-index: 1;
 }
-
-    /* Pictures unblocked for bigger screens*/
-
-#picture-border-peeking-dog {
+ 
+#picture-border-peeking-dog{
     background: url(../images/peeking-dog.jpg) no-repeat center /cover;
     width: 500px;
     height: 500px;
@@ -439,9 +415,10 @@ nav {
     max-width: 400px;
     max-height: 400px;
     z-index: 2;
-    }
+ }
 
-#picture-border-dog-with-lollipop {
+
+#picture-border-dog-with-lollipop{
     background: url(../images/dog-with-lollipop.jpg) no-repeat center /cover;
     width: 400px;
     height: 400px;
@@ -450,15 +427,15 @@ nav {
     max-height: 400px;
     display: block;
     z-index: 1;
-    }
+}
 
-#picture-white-dog-with-cupcake {
+#picture-white-dog-with-cupcake{
     display: flex;
     justify-content: center;
     z-index: 3;
-    }
+}
 
-#picture-border-white-dog-with-cupcake {
+#picture-border-white-dog-with-cupcake{
     background: url(../images/white-dog-with-cupcake.jpeg) no-repeat center /cover;
     width: 500px;
     height: 500px;
@@ -467,7 +444,7 @@ nav {
     max-height: 400px;
 }
 
-#picture-border-two-dogs-with-party-hats {
+#picture-border-two-dogs-with-party-hats{
     background: url(../images/two-dogs-with-party-hats.jpg) no-repeat center /cover;
     width: 500px;
     height: 500px;
@@ -477,13 +454,13 @@ nav {
     margin-top: 20px;
 }
 
-#picture-two-dogs-with-party-hats {
+#picture-two-dogs-with-party-hats{
     display: flex;
     justify-content: center
 }
-    /* About-page min 768px */
+/* About-page min 768px */
 
-#about-section {
+#about-section{
     margin-top: 100px;
     margin-left: 50px;
     display: flex;
@@ -491,16 +468,16 @@ nav {
     font-size: 110%;
 }
 
-#welcome-text {
+#welcome-text{
     display: flex;
     justify-content: start;
     font-size: 200%;
     padding-left: 100px;
     line-height: 3rem;
     margin-left: 300px;
-    }
+}
 
-#bulldog-puppy-sitting-wooden-table {
+#bulldog-puppy-sitting-wooden-table{
     background: url(../images/bulldog-puppy-sitting-wooden-table.jpg) no-repeat center /cover;
     width: 400px;
     height: 400px;
@@ -513,13 +490,13 @@ nav {
     margin-right: 400px;
 }
 
-#border-bulldog-puppy-sitting-wooden-table {
+#border-bulldog-puppy-sitting-wooden-table{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-#opening-box {
+#opening-box{
     width: 300px;
     height: 300px;
     padding: 40px;
@@ -529,7 +506,7 @@ nav {
     z-index: 1;
 }
 
-#border {
+#border{
     width: 400px;
     height: 400px;
     align-content: center;
@@ -538,7 +515,7 @@ nav {
     margin-right: 500px;
 }
 
-#presentation-of-founder {
+#presentation-of-founder{
     display: flex;
     flex-direction: column;
     font-size: 90%;
@@ -546,13 +523,13 @@ nav {
     margin-left: 100px;
 }
 
-#picture-border-my-dog {
+#picture-border-my-dog{
     height: 400px;
     width: 400px;
     border-radius: 50%;
 }
 
-#presentation-text {
+#presentation-text{
     width: 600px;
     height: 600px;
     line-height: 50px;
@@ -561,11 +538,11 @@ nav {
     border-radius: 50%;
 }
 
-#presentation-text > p {
+#presentation-text > p{
     line-height: 2rem;
 }
 
-#calendar {
+#calendar{
     text-align: center;
     display: flex;
     flex-grow: 1;
@@ -573,7 +550,7 @@ nav {
     flex-wrap: wrap;
 }
 
-.calander-days {
+.calander-days{
      margin-right: 50px;
 }
 
@@ -581,7 +558,7 @@ nav {
 
     /* homepage screens min 768px */
 
-#pictures-dogs-bigscreen {
+#pictures-dogs-bigscreen{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -589,34 +566,34 @@ nav {
 }
 
 
-#spoil-your-dog-list {
+#spoil-your-dog-list{
     line-height: 100px;
 }
 
-    /*Form screens min 768px*/
+/*Form screens min 768px*/
 
-    /*Hover function in form*/
+/*Hover function in form*/
 
 .submit-button:hover,
 .text-area:hover,
-.text-input:hover {
-    border-color: rgb(224, 175, 179);
+.text-input:hover{
+    border-color: rgb(217, 137, 244);
 }
 
-.home-hover:hover {
-    background-color: rgb(224, 175, 179);
+.home-hover:hover{
+    background-color: rgb(217, 137, 244);
 }
 
-.about-hover:hover {
-    background-color: rgb(224, 175, 179);
+.about-hover:hover{
+    background-color: rgb(217, 137, 244);
 }
 
-.contact-hover:hover {
-        background-color: rgb(224, 175, 179);
+.contact-hover:hover{
+        background-color: rgb(217, 137, 244);
 }
 
     /* To make footer socialmedia icons bigger*/
-#footer-links {
+#footer-links{
     font-size: 300%;
     display: flex;
     justify-content: space-evenly;
@@ -624,27 +601,26 @@ nav {
 }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px){
 
-.intro-text {
+.intro-text{
     font-size: 300%;
 }
 
 
         /*About*/
-
-#presentation-of-founder {
+#presentation-of-founder{
     display: flex;
     flex-direction: row;
 }
 
 
-#picture-border-my-dog {
+#picture-border-my-dog{
     width: 350px;
     height: 350px;
 }
 
-#presentation-text {
+#presentation-text{
     height: 600px;
     width: 600px;
     padding: 80px;
@@ -655,14 +631,14 @@ nav {
     background-color: rgb(255, 255, 255, 0.6);
 }
 
-#calendar {
+#calendar{
     text-align: center;
     display: flex;
     flex-grow: 1;
     justify-content: space-evenly;
 }
 
-.calander-days {
+.calander-days{
     margin-right: 50px;
 }            
 }
