@@ -4,7 +4,7 @@ Dog Barkery is a website that aspires to attract more people to their bakery and
 
 To use the website, simply navigate to the following URL:
 
-<https://elinaboman.github.io/pp1-dogbakery/>
+https://elinaboman.github.io/pp1-dogbakery/
 
 ![Responsive](docs./responsive.png)
 
